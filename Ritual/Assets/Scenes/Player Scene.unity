@@ -129,8 +129,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 367186249
+  m_SortingOrder: 1
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -159,7 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6066724373776b944994dfe49a641339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5.5
+  direction: 0
+  maxSpeed: 2
 --- !u!50 &419002954
 Rigidbody2D:
   serializedVersion: 2
@@ -190,8 +191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 5025446, guid: 099a827541b9a43ca96de19ce003d366, type: 2}
-  BulletSpeed: 1
-  AttackSpeed: 1
+  BulletSpeed: 100
+  AttackSpeed: 0.2
 --- !u!1 &689764778
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +293,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11461520, guid: 58af86ec4f11f47d18ae57e218b4977e, type: 2}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21288172, guid: 58af86ec4f11f47d18ae57e218b4977e, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 367186249
+      objectReference: {fileID: 0}
+    - target: {fileID: 21288172, guid: 58af86ec4f11f47d18ae57e218b4977e, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58af86ec4f11f47d18ae57e218b4977e, type: 2}
   m_IsPrefabParent: 0
@@ -354,7 +367,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 50
   field of view: 9.70456
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -376,7 +389,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1637477863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 25.78}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
