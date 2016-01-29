@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
 
     protected float moveHorizontal, moveVertical;
-
+	public float direction; //1=down 2=left 3=up 4=right
     private Rigidbody2D playerRigidbody;
 
     public static bool moveAllow;
@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+		direction = 1;
         moveAllow = true;
 
         //Setting references to components.
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+		
 
     void Move()
     {
@@ -44,5 +46,19 @@ public class PlayerController : MonoBehaviour
         {
             playerRigidbody.velocity = new Vector2(0, 0);
         }
+
+		// only triggered when moving ! :< 
+
+		if(moveHorizontal < 0){
+			direction = 2;
+		}else if(moveHorizontal > 0){
+			direction = 4;
+		}else if(moveVertical < 0){
+			direction = 3;
+		}else if(moveVertical > 0){
+			direction = 1;
+		}
+
+
     }
 }
