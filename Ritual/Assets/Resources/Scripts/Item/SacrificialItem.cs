@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SacrificialItem : Item {
+public class SacrificialItem : MonoBehaviour {
 
     private GameObject player;
 
