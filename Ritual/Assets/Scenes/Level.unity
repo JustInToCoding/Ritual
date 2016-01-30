@@ -735,7 +735,7 @@ GameObject:
   - 61: {fileID: 51755651}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - 61: {fileID: 80521667}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1318,7 +1318,7 @@ GameObject:
   - 61: {fileID: 103416716}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,7 +1391,7 @@ GameObject:
   - 61: {fileID: 105627670}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1464,7 +1464,7 @@ GameObject:
   - 61: {fileID: 118998018}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1537,7 +1537,7 @@ GameObject:
   - 61: {fileID: 119784029}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1610,7 +1610,7 @@ GameObject:
   - 61: {fileID: 121675746}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,7 +1741,7 @@ GameObject:
   - 61: {fileID: 129128444}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2162,7 +2162,7 @@ GameObject:
   - 61: {fileID: 146724441}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3049,7 +3049,7 @@ GameObject:
   - 61: {fileID: 199891590}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3180,7 +3180,7 @@ GameObject:
   - 61: {fileID: 217193493}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3630,7 +3630,7 @@ GameObject:
   - 61: {fileID: 232912526}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3963,7 +3963,7 @@ GameObject:
   - 61: {fileID: 271773079}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4238,7 +4238,7 @@ GameObject:
   - 61: {fileID: 280285183}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4311,7 +4311,7 @@ GameObject:
   - 61: {fileID: 281192337}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4500,7 +4500,7 @@ GameObject:
   - 61: {fileID: 287117466}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4573,7 +4573,7 @@ GameObject:
   - 61: {fileID: 293226564}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4839,7 +4839,7 @@ GameObject:
   - 61: {fileID: 303927033}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4912,7 +4912,7 @@ GameObject:
   - 61: {fileID: 305724407}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5043,7 +5043,7 @@ GameObject:
   - 61: {fileID: 313671891}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5348,7 +5348,7 @@ GameObject:
   - 61: {fileID: 336662562}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5479,7 +5479,7 @@ GameObject:
   - 61: {fileID: 343408511}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5842,7 +5842,7 @@ GameObject:
   - 61: {fileID: 365029737}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6321,7 +6321,7 @@ GameObject:
   - 61: {fileID: 383260981}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6394,7 +6394,7 @@ GameObject:
   - 61: {fileID: 384457555}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6467,7 +6467,7 @@ GameObject:
   - 61: {fileID: 388675858}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6685,7 +6685,7 @@ GameObject:
   - 61: {fileID: 410468006}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6758,7 +6758,7 @@ GameObject:
   - 61: {fileID: 410548203}
   m_Layer: 9
   m_Name: Floor hoeken_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7005,7 +7005,7 @@ GameObject:
   - 61: {fileID: 442486975}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7739,7 +7739,7 @@ GameObject:
   - 61: {fileID: 495532272}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7870,7 +7870,7 @@ GameObject:
   - 61: {fileID: 500811203}
   m_Layer: 9
   m_Name: Floor hoeken_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7943,7 +7943,7 @@ GameObject:
   - 61: {fileID: 501074544}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8074,7 +8074,7 @@ GameObject:
   - 61: {fileID: 506786535}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8263,7 +8263,7 @@ GameObject:
   - 61: {fileID: 510827310}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8743,7 +8743,7 @@ GameObject:
   - 61: {fileID: 534695990}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9751,7 +9751,7 @@ GameObject:
   - 61: {fileID: 593958031}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9824,7 +9824,7 @@ GameObject:
   - 61: {fileID: 602383622}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9897,7 +9897,7 @@ GameObject:
   - 61: {fileID: 606688633}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10683,7 +10683,7 @@ GameObject:
   - 61: {fileID: 654662082}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11046,7 +11046,7 @@ GameObject:
   - 61: {fileID: 672278968}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11177,7 +11177,7 @@ GameObject:
   - 61: {fileID: 681717105}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11250,7 +11250,7 @@ GameObject:
   - 61: {fileID: 693212978}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11729,7 +11729,7 @@ GameObject:
   - 61: {fileID: 715178543}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11918,7 +11918,7 @@ GameObject:
   - 61: {fileID: 732917678}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12339,7 +12339,7 @@ GameObject:
   - 61: {fileID: 744779910}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13252,7 +13252,7 @@ GameObject:
   - 61: {fileID: 816396429}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13383,7 +13383,7 @@ GameObject:
   - 61: {fileID: 827307270}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13804,7 +13804,7 @@ GameObject:
   - 61: {fileID: 842659724}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14051,7 +14051,7 @@ GameObject:
   - 61: {fileID: 854621459}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14491,7 +14491,7 @@ GameObject:
   - 61: {fileID: 897247111}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15144,7 +15144,7 @@ GameObject:
   - 61: {fileID: 921913617}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15304,7 +15304,7 @@ GameObject:
   - 61: {fileID: 933616043}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15899,7 +15899,7 @@ GameObject:
   - 61: {fileID: 985302182}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15972,7 +15972,7 @@ GameObject:
   - 61: {fileID: 989756541}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16314,7 +16314,7 @@ GameObject:
   - 61: {fileID: 1008057161}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16503,7 +16503,7 @@ GameObject:
   - 61: {fileID: 1014653697}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16749,7 +16749,7 @@ GameObject:
   - 61: {fileID: 1041463192}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16822,7 +16822,7 @@ GameObject:
   - 61: {fileID: 1049062937}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17301,7 +17301,7 @@ GameObject:
   - 61: {fileID: 1070970639}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17780,7 +17780,7 @@ GameObject:
   - 61: {fileID: 1103809783}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17969,7 +17969,7 @@ GameObject:
   - 61: {fileID: 1116213060}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18825,7 +18825,7 @@ GameObject:
   - 61: {fileID: 1158048758}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19362,7 +19362,7 @@ GameObject:
   - 61: {fileID: 1205864450}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19920,7 +19920,7 @@ GameObject:
   - 61: {fileID: 1231924788}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19993,7 +19993,7 @@ GameObject:
   - 61: {fileID: 1232272731}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20240,7 +20240,7 @@ GameObject:
   - 61: {fileID: 1243518408}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20371,7 +20371,7 @@ GameObject:
   - 61: {fileID: 1248275345}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20560,7 +20560,7 @@ GameObject:
   - 61: {fileID: 1259039324}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22018,7 +22018,7 @@ GameObject:
   - 61: {fileID: 1350764156}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22323,7 +22323,7 @@ GameObject:
   - 61: {fileID: 1371802538}
   m_Layer: 9
   m_Name: Floor hoeken_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22454,7 +22454,7 @@ GameObject:
   - 61: {fileID: 1389481578}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22527,7 +22527,7 @@ GameObject:
   - 61: {fileID: 1390005217}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22730,7 +22730,7 @@ GameObject:
   - 61: {fileID: 1408519018}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23602,7 +23602,7 @@ GameObject:
   - 61: {fileID: 1451649154}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23675,7 +23675,7 @@ GameObject:
   - 61: {fileID: 1454116057}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24154,7 +24154,7 @@ GameObject:
   - 61: {fileID: 1482374379}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24517,7 +24517,7 @@ GameObject:
   - 61: {fileID: 1502135912}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24590,7 +24590,7 @@ GameObject:
   - 61: {fileID: 1508207622}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24837,7 +24837,7 @@ GameObject:
   - 61: {fileID: 1528646771}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25287,7 +25287,7 @@ GameObject:
   - 61: {fileID: 1545970617}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25824,7 +25824,7 @@ GameObject:
   - 61: {fileID: 1616389854}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26245,7 +26245,7 @@ GameObject:
   - 61: {fileID: 1648041557}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26568,7 +26568,7 @@ GameObject:
   - 61: {fileID: 1657085672}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26757,7 +26757,7 @@ GameObject:
   - 61: {fileID: 1674593066}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27062,7 +27062,7 @@ GameObject:
   - 61: {fileID: 1696033600}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27135,7 +27135,7 @@ GameObject:
   - 61: {fileID: 1696797580}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27614,7 +27614,7 @@ GameObject:
   - 61: {fileID: 1728501760}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27919,7 +27919,7 @@ GameObject:
   - 61: {fileID: 1750397479}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28050,7 +28050,7 @@ GameObject:
   - 61: {fileID: 1767031172}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28181,7 +28181,7 @@ GameObject:
   - 61: {fileID: 1784898330}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28370,7 +28370,7 @@ GameObject:
   - 61: {fileID: 1800123662}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29023,7 +29023,7 @@ GameObject:
   - 61: {fileID: 1854816226}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29328,7 +29328,7 @@ GameObject:
   - 61: {fileID: 1870390936}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29401,7 +29401,7 @@ GameObject:
   - 61: {fileID: 1870514826}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29678,7 +29678,7 @@ GameObject:
   - 61: {fileID: 1885322996}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29809,7 +29809,7 @@ GameObject:
   - 61: {fileID: 1889301671}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29998,7 +29998,7 @@ GameObject:
   - 61: {fileID: 1894012173}
   m_Layer: 9
   m_Name: Floor hoeken_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30157,7 +30157,7 @@ GameObject:
   - 61: {fileID: 1897689017}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30346,7 +30346,7 @@ GameObject:
   - 61: {fileID: 1903698861}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30767,7 +30767,7 @@ GameObject:
   - 61: {fileID: 1937265333}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31525,7 +31525,7 @@ GameObject:
   - 61: {fileID: 2021384258}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31928,7 +31928,7 @@ GameObject:
   - 61: {fileID: 2056024046}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32425,7 +32425,7 @@ GameObject:
   - 61: {fileID: 2079142392}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32788,7 +32788,7 @@ GameObject:
   - 61: {fileID: 2102989332}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33035,7 +33035,7 @@ GameObject:
   - 61: {fileID: 2117439245}
   m_Layer: 9
   m_Name: Floor vertical_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33532,7 +33532,7 @@ GameObject:
   - 61: {fileID: 2134923021}
   m_Layer: 9
   m_Name: Floor Total_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

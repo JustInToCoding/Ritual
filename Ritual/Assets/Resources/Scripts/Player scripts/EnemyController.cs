@@ -60,8 +60,10 @@ public class EnemyController : MonoBehaviour {
 
 		if (path == null)
 		{
+			Debug.Log ("no path to player");
 			//We have no path to move after yet
-			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+
+
 			return;
 		}
 
@@ -74,7 +76,10 @@ public class EnemyController : MonoBehaviour {
 
 		if (currentWaypoint >= path.vectorPath.Count)
 		{
-			Debug.Log( "End Of Path Reached" );
+			if (!playerInRange) {
+				seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+			}
+			//Debug.Log( "End Of Path Reached" );
 			return;
 		}
 			
