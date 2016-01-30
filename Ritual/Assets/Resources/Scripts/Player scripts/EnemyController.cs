@@ -131,20 +131,22 @@ public class EnemyController : MonoBehaviour {
 	void Animate () {
 		Vector3 temp = this.transform.localScale;
 
-		if (direction == 4) {
-			temp.x = 0.3f;
-			animation.SetBool ("isWalking", true);
-		} else if (direction == 3) {
-			animation.SetBool ("isWalking", true);
-		} else if (direction == 2) {
-			temp.x = -0.3f;
-			animation.SetBool ("isWalking", true);
-		} else if (direction == 1) {
-			animation.SetBool ("isWalking", true);
+		if (walking) {
+			if (direction == 4) {
+				temp.x = 0.3f;
+				animation.SetBool ("isWalking", true);
+			} else if (direction == 3) {
+				animation.SetBool ("isWalking", true);
+			} else if (direction == 2) {
+				temp.x = -0.3f;
+				animation.SetBool ("isWalking", true);
+			} else if (direction == 1) {
+				animation.SetBool ("isWalking", true);
+			}
+			this.transform.localScale = temp;
 		} else {
 			animation.SetBool ("isWalking", false);
 		}
-		this.transform.localScale = temp;
 	}
 
 	public void OnPathComplete ( Path p )
