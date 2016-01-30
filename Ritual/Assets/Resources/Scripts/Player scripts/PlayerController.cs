@@ -58,11 +58,11 @@ public class PlayerController : MonoBehaviour
 
 		if (moveHorizontal < 0) {
 			direction = 2;
-			temp.x = -1;
+			temp.x = -0.3f;
 			animator.SetBool ("isWalking", true);
 		} else if (moveHorizontal > 0) {
 			direction = 4;
-			temp.x = 1;
+			temp.x = 0.3f;
 			animator.SetBool ("isWalking", true);
 
 		} else if (moveVertical < 0) {
