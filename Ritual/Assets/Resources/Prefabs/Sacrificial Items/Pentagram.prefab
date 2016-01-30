@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 0.79, z: 0}
+  m_LocalPosition: {x: -23.24, y: -15.15, z: -1.22}
   m_LocalScale: {x: 5.370761, y: 2.984555, z: 1}
   m_Children:
   - {fileID: 463496}
@@ -52,8 +52,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123530}
-  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
-  m_LocalPosition: {x: 0.312, y: 1.245, z: -3.02}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004, y: -0.043, z: -3.24}
   m_LocalScale: {x: 0.35598966, y: 0.56519085, z: 0.49089807}
   m_Children: []
   m_Father: {fileID: 439630}
@@ -68,9 +68,9 @@ Light:
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
-  m_Range: 15.249444
-  m_SpotAngle: 30
+  m_Intensity: 5
+  m_Range: 6.0146255
+  m_SpotAngle: 74.6
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -102,10 +102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4c7e277768e2e42bf1fb6f36e36e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startIntensity: 0
+  startIntensity: 5
   endIntensity: 8
   speed: 0.08
-  changeColour: 0
   color: {r: 0, g: 0, b: 0, a: 0}
   RGBNew: {x: 255, y: 255, z: 255, w: 255}
   someObject: {fileID: 21266440}

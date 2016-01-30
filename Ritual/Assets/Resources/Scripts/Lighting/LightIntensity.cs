@@ -9,9 +9,10 @@ public class LightIntensity : MonoBehaviour
     private float currIntensity;
     public float speed;
     private bool increase, decrease;
-    public bool changeColour;
+    public static bool changeColour;
     public Color color;
     public Vector4 RGBNew;
+    private bool reset;
 
     public SpriteRenderer someObject;
     private Light light;
@@ -53,14 +54,25 @@ public class LightIntensity : MonoBehaviour
         {
             someObject.color = new Color32((byte)RGBNew.x, (byte)RGBNew.y, (byte)RGBNew.z, (byte)RGBNew.w);
             light.intensity = 8;
+            StartCoroutine(timer());
             decrease = true;
             changeColour = false;
+            reset = false;
         }
 
         else if (changeColour == false)
         {
-            if (light.intensity == 0)
+            if (light.intensity <= startIntensity && reset)
+            {
                 someObject.color = color;
+                reset = false;
+            }
         }
+    }
+
+    public IEnumerator timer()
+    {
+        yield return new WaitForSeconds(1.5f);
+        //reset = true;
     }
 }

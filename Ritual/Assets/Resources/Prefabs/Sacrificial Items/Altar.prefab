@@ -58,6 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sacrificedItems: 0
+  particleFX: {fileID: 171446, guid: c7370f16afa5dd24a9cd5c948aad137c, type: 2}
 --- !u!198 &19853166
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1581,7 +1582,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 515545925
+  m_SortingLayerID: 367186249
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -1622,7 +1623,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 515545925
+  m_SortingLayerID: 367186249
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 54b9952e583a0d845a744e88e7b628fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
