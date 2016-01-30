@@ -1,0 +1,2937 @@
+fileFormatVersion: 2
+guid: 5cf6522a4bad240fe8281edcf4cd68e3
+timeCreated: 1454123025
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Floor hoeken_0
+    21300002: Floor hoeken_1
+    21300004: Floor hoeken_2
+    21300006: Floor hoeken_3
+    21300008: Floor hoeken_4
+    21300010: Floor hoeken_5
+    21300012: Floor hoeken_6
+    21300014: Floor hoeken_7
+    21300016: Floor hoeken_8
+    21300018: Floor hoeken_9
+    21300020: Floor hoeken_10
+    21300022: Floor hoeken_11
+    21300024: Floor hoeken_12
+    21300026: Floor hoeken_13
+    21300028: Floor hoeken_14
+    21300030: Floor hoeken_15
+    21300032: Floor hoeken_16
+    21300034: Floor hoeken_17
+    21300036: Floor hoeken_18
+    21300038: Floor hoeken_19
+    21300040: Floor hoeken_20
+    21300042: Floor hoeken_21
+    21300044: Floor hoeken_22
+    21300046: Floor hoeken_23
+    21300048: Floor hoeken_24
+    21300050: Floor hoeken_25
+    21300052: Floor hoeken_26
+    21300054: Floor hoeken_27
+    21300056: Floor hoeken_28
+    21300058: Floor hoeken_29
+    21300060: Floor hoeken_30
+    21300062: Floor hoeken_31
+    21300064: Floor hoeken_32
+    21300066: Floor hoeken_33
+    21300068: Floor hoeken_34
+    21300070: Floor hoeken_35
+    21300072: Floor hoeken_36
+    21300074: Floor hoeken_37
+    21300076: Floor hoeken_38
+    21300078: Floor hoeken_39
+    21300080: Floor hoeken_40
+    21300082: Floor hoeken_41
+    21300084: Floor hoeken_42
+    21300086: Floor hoeken_43
+    21300088: Floor hoeken_44
+    21300090: Floor hoeken_45
+    21300092: Floor hoeken_46
+    21300094: Floor hoeken_47
+    21300096: Floor hoeken_48
+    21300098: Floor hoeken_49
+    21300100: Floor hoeken_50
+    21300102: Floor hoeken_51
+    21300104: Floor hoeken_52
+    21300106: Floor hoeken_53
+    21300108: Floor hoeken_54
+    21300110: Floor hoeken_55
+    21300112: Floor hoeken_56
+    21300114: Floor hoeken_57
+    21300116: Floor hoeken_58
+    21300118: Floor hoeken_59
+    21300120: Floor hoeken_60
+    21300122: Floor hoeken_61
+    21300124: Floor hoeken_62
+    21300126: Floor hoeken_63
+    21300128: Floor hoeken_64
+    21300130: Floor hoeken_65
+    21300132: Floor hoeken_66
+    21300134: Floor hoeken_67
+    21300136: Floor hoeken_68
+    21300138: Floor hoeken_69
+    21300140: Floor hoeken_70
+    21300142: Floor hoeken_71
+    21300144: Floor hoeken_72
+    21300146: Floor hoeken_73
+    21300148: Floor hoeken_74
+    21300150: Floor hoeken_75
+    21300152: Floor hoeken_76
+    21300154: Floor hoeken_77
+    21300156: Floor hoeken_78
+    21300158: Floor hoeken_79
+    21300160: Floor hoeken_80
+    21300162: Floor hoeken_81
+    21300164: Floor hoeken_82
+    21300166: Floor hoeken_83
+    21300168: Floor hoeken_84
+    21300170: Floor hoeken_85
+    21300172: Floor hoeken_86
+    21300174: Floor hoeken_87
+    21300176: Floor hoeken_88
+    21300178: Floor hoeken_89
+    21300180: Floor hoeken_90
+    21300182: Floor hoeken_91
+    21300184: Floor hoeken_92
+    21300186: Floor hoeken_93
+    21300188: Floor hoeken_94
+    21300190: Floor hoeken_95
+    21300192: Floor hoeken_96
+    21300194: Floor hoeken_97
+    21300196: Floor hoeken_98
+    21300198: Floor hoeken_99
+    21300200: Floor hoeken_100
+    21300202: Floor hoeken_101
+    21300204: Floor hoeken_102
+    21300206: Floor hoeken_103
+    21300208: Floor hoeken_104
+    21300210: Floor hoeken_105
+    21300212: Floor hoeken_106
+    21300214: Floor hoeken_107
+    21300216: Floor hoeken_108
+    21300218: Floor hoeken_109
+    21300220: Floor hoeken_110
+    21300222: Floor hoeken_111
+    21300224: Floor hoeken_112
+    21300226: Floor hoeken_113
+    21300228: Floor hoeken_114
+    21300230: Floor hoeken_115
+    21300232: Floor hoeken_116
+    21300234: Floor hoeken_117
+    21300236: Floor hoeken_118
+    21300238: Floor hoeken_119
+    21300240: Floor hoeken_120
+    21300242: Floor hoeken_121
+    21300244: Floor hoeken_122
+    21300246: Floor hoeken_123
+    21300248: Floor hoeken_124
+    21300250: Floor hoeken_125
+    21300252: Floor hoeken_126
+    21300254: Floor hoeken_127
+    21300256: Floor hoeken_128
+    21300258: Floor hoeken_129
+    21300260: Floor hoeken_130
+    21300262: Floor hoeken_131
+    21300264: Floor hoeken_132
+    21300266: Floor hoeken_133
+    21300268: Floor hoeken_134
+    21300270: Floor hoeken_135
+    21300272: Floor hoeken_136
+    21300274: Floor hoeken_137
+    21300276: Floor hoeken_138
+    21300278: Floor hoeken_139
+    21300280: Floor hoeken_140
+    21300282: Floor hoeken_141
+    21300284: Floor hoeken_142
+    21300286: Floor hoeken_143
+    21300288: Floor hoeken_144
+    21300290: Floor hoeken_145
+    21300292: Floor hoeken_146
+    21300294: Floor hoeken_147
+    21300296: Floor hoeken_148
+    21300298: Floor hoeken_149
+    21300300: Floor hoeken_150
+    21300302: Floor hoeken_151
+    21300304: Floor hoeken_152
+    21300306: Floor hoeken_153
+    21300308: Floor hoeken_154
+    21300310: Floor hoeken_155
+    21300312: Floor hoeken_156
+    21300314: Floor hoeken_157
+    21300316: Floor hoeken_158
+    21300318: Floor hoeken_159
+    21300320: Floor hoeken_160
+    21300322: Floor hoeken_161
+    21300324: Floor hoeken_162
+    21300326: Floor hoeken_163
+    21300328: Floor hoeken_164
+    21300330: Floor hoeken_165
+    21300332: Floor hoeken_166
+    21300334: Floor hoeken_167
+    21300336: Floor hoeken_168
+    21300338: Floor hoeken_169
+    21300340: Floor hoeken_170
+    21300342: Floor hoeken_171
+    21300344: Floor hoeken_172
+    21300346: Floor hoeken_173
+    21300348: Floor hoeken_174
+    21300350: Floor hoeken_175
+    21300352: Floor hoeken_176
+    21300354: Floor hoeken_177
+    21300356: Floor hoeken_178
+    21300358: Floor hoeken_179
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Floor hoeken_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 738
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 674
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 610
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_56
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_70
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_73
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_74
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 482
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 418
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_100
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_112
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_116
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_117
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_118
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_133
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_134
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_141
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_146
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_147
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_148
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_149
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 162
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_153
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_154
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_155
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_157
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_158
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_159
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_160
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_161
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_162
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_163
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_164
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_168
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_169
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_173
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_174
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_175
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_176
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_177
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_178
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: Floor hoeken_179
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
