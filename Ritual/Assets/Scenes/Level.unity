@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 7954974}
   - 212: {fileID: 7954973}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 12378046}
   - 212: {fileID: 12378045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +210,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 18940136}
   - 212: {fileID: 18940135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 21723605}
   - 212: {fileID: 21723604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 23755273}
   - 212: {fileID: 23755272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 30175772}
   - 212: {fileID: 30175771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 33192109}
   - 212: {fileID: 33192108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 37164212}
   - 212: {fileID: 37164211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 39596280}
   - 212: {fileID: 39596281}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 39976657}
   - 212: {fileID: 39976656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 48414888}
   - 212: {fileID: 48414887}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,8 +732,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 51755650}
   - 212: {fileID: 51755649}
-  - 61: {fileID: 51755651}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,20 +781,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 5
---- !u!61 &51755651
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 51755648}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &53377761
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +790,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 53377763}
   - 212: {fileID: 53377762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,7 +848,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 66249788}
   - 212: {fileID: 66249787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +906,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 72298636}
   - 212: {fileID: 72298637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +964,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 73562491}
   - 212: {fileID: 73562492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1037,8 +1022,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 80521666}
   - 212: {fileID: 80521665}
-  - 61: {fileID: 80521667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,20 +1071,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 6
---- !u!61 &80521667
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 80521664}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &82602149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,7 +1080,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 82602151}
   - 212: {fileID: 82602150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1138,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 84601027}
   - 212: {fileID: 84601028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,7 +1196,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 100127739}
   - 212: {fileID: 100127738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,8 +1254,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 103416715}
   - 212: {fileID: 103416714}
-  - 61: {fileID: 103416716}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,20 +1303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 50
---- !u!61 &103416716
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 103416713}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &105627667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,8 +1312,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 105627669}
   - 212: {fileID: 105627668}
-  - 61: {fileID: 105627670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,20 +1361,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 60
---- !u!61 &105627670
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 105627667}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &118998015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,8 +1370,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 118998017}
   - 212: {fileID: 118998016}
-  - 61: {fileID: 118998018}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1480,20 +1419,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 51
---- !u!61 &118998018
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 118998015}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &119784026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,8 +1428,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 119784028}
   - 212: {fileID: 119784027}
-  - 61: {fileID: 119784029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,20 +1477,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 11
---- !u!61 &119784029
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 119784026}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &121675743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,8 +1486,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 121675745}
   - 212: {fileID: 121675744}
-  - 61: {fileID: 121675746}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,20 +1535,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 66
---- !u!61 &121675746
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 121675743}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &125162352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1544,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 125162354}
   - 212: {fileID: 125162353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1707,8 +1602,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 129128443}
   - 212: {fileID: 129128442}
-  - 61: {fileID: 129128444}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1757,20 +1651,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 73
---- !u!61 &129128444
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 129128441}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &133516796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,7 +1660,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 133516798}
   - 212: {fileID: 133516797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1838,7 +1718,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 133748433}
   - 212: {fileID: 133748432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1896,7 +1776,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 137347523}
   - 212: {fileID: 137347522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1954,7 +1834,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 138510361}
   - 212: {fileID: 138510360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2012,7 +1892,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 138879336}
   - 212: {fileID: 138879337}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,7 +1950,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 139497479}
   - 212: {fileID: 139497478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2128,8 +2008,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 146724440}
   - 212: {fileID: 146724439}
-  - 61: {fileID: 146724441}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2178,20 +2057,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 33
---- !u!61 &146724441
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 146724438}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &148940401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,7 +2066,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 148940403}
   - 212: {fileID: 148940402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2259,7 +2124,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 150109750}
   - 212: {fileID: 150109749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2317,7 +2182,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 156254564}
   - 212: {fileID: 156254563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2375,7 +2240,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 160445451}
   - 212: {fileID: 160445450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2433,7 +2298,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 165584903}
   - 212: {fileID: 165584902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2491,7 +2356,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 167177606}
   - 212: {fileID: 167177605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2549,7 +2414,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 170806498}
   - 212: {fileID: 170806497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2607,7 +2472,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 177633674}
   - 212: {fileID: 177633673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2530,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 179155850}
   - 212: {fileID: 179155851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2723,7 +2588,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 179495331}
   - 212: {fileID: 179495330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2781,7 +2646,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 187920190}
   - 212: {fileID: 187920189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2839,7 +2704,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 198466543}
   - 212: {fileID: 198466542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2897,8 +2762,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 199891589}
   - 212: {fileID: 199891588}
-  - 61: {fileID: 199891590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2947,20 +2811,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 69
---- !u!61 &199891590
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 199891587}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &206694437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,7 +2820,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 206694439}
   - 212: {fileID: 206694438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3028,8 +2878,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 217193492}
   - 212: {fileID: 217193491}
-  - 61: {fileID: 217193493}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3078,20 +2927,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 45
---- !u!61 &217193493
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 217193490}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &219132257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,7 +2936,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 219132259}
   - 212: {fileID: 219132258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3159,7 +2994,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 220560985}
   - 212: {fileID: 220560984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3217,7 +3052,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 222486099}
   - 212: {fileID: 222486098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3275,7 +3110,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 222653342}
   - 212: {fileID: 222653341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3333,7 +3168,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 227525314}
   - 212: {fileID: 227525313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,7 +3226,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 231034091}
   - 212: {fileID: 231034090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3449,8 +3284,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 232912525}
   - 212: {fileID: 232912524}
-  - 61: {fileID: 232912526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3499,20 +3333,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 67
---- !u!61 &232912526
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 232912523}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &246814524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3342,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 246814526}
   - 212: {fileID: 246814525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3580,7 +3400,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 249650677}
   - 212: {fileID: 249650676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3638,7 +3458,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 250252835}
   - 212: {fileID: 250252834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3696,7 +3516,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 256880599}
   - 212: {fileID: 256880598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3754,8 +3574,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 271773078}
   - 212: {fileID: 271773077}
-  - 61: {fileID: 271773079}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3804,20 +3623,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 9
---- !u!61 &271773079
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 271773076}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &272439791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3827,7 +3632,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 272439793}
   - 212: {fileID: 272439792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3885,7 +3690,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 273804186}
   - 212: {fileID: 273804185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3943,7 +3748,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 276098589}
   - 212: {fileID: 276098588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4001,8 +3806,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 280285182}
   - 212: {fileID: 280285181}
-  - 61: {fileID: 280285183}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4051,20 +3855,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 77
---- !u!61 &280285183
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 280285180}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &281192334
 GameObject:
   m_ObjectHideFlags: 0
@@ -4074,8 +3864,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 281192336}
   - 212: {fileID: 281192335}
-  - 61: {fileID: 281192337}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4124,20 +3913,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 26
---- !u!61 &281192337
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 281192334}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &284539315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,7 +3922,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 284539316}
   - 212: {fileID: 284539317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4205,7 +3980,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 286864562}
   - 212: {fileID: 286864561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4263,8 +4038,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 287117465}
   - 212: {fileID: 287117464}
-  - 61: {fileID: 287117466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4313,20 +4087,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 13
---- !u!61 &287117466
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 287117463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &293226561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,8 +4096,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 293226563}
   - 212: {fileID: 293226562}
-  - 61: {fileID: 293226564}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4386,20 +4145,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 68
---- !u!61 &293226564
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 293226561}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &298452369
 GameObject:
   m_ObjectHideFlags: 0
@@ -4409,7 +4154,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 298452371}
   - 212: {fileID: 298452370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4467,7 +4212,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 300016302}
   - 212: {fileID: 300016301}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4525,8 +4270,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 303927032}
   - 212: {fileID: 303927031}
-  - 61: {fileID: 303927033}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4575,20 +4319,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 104
---- !u!61 &303927033
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 303927030}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &305724404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,8 +4328,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 305724406}
   - 212: {fileID: 305724405}
-  - 61: {fileID: 305724407}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,20 +4377,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 81
---- !u!61 &305724407
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 305724404}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &311144879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,7 +4386,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 311144880}
   - 212: {fileID: 311144881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4729,8 +4444,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 313671890}
   - 212: {fileID: 313671889}
-  - 61: {fileID: 313671891}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4779,20 +4493,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 25
---- !u!61 &313671891
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 313671888}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &316575012
 GameObject:
   m_ObjectHideFlags: 0
@@ -4802,7 +4502,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 316575013}
   - 212: {fileID: 316575014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4860,7 +4560,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 322097872}
   - 212: {fileID: 322097871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4918,7 +4618,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 323297537}
   - 212: {fileID: 323297536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4976,7 +4676,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 325366798}
   - 212: {fileID: 325366797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5034,8 +4734,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 336662561}
   - 212: {fileID: 336662560}
-  - 61: {fileID: 336662562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,20 +4783,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 1
---- !u!61 &336662562
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 336662559}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &341729902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5107,7 +4792,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 341729903}
   - 212: {fileID: 341729904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5165,8 +4850,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 343408510}
   - 212: {fileID: 343408509}
-  - 61: {fileID: 343408511}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5215,20 +4899,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 17
---- !u!61 &343408511
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 343408508}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &347402417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,7 +4908,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 347402419}
   - 212: {fileID: 347402418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5296,7 +4966,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 351761869}
   - 212: {fileID: 351761870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5354,7 +5024,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 360740449}
   - 212: {fileID: 360740448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5412,7 +5082,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 362445743}
   - 212: {fileID: 362445742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5470,7 +5140,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 364748700}
   - 212: {fileID: 364748699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5528,8 +5198,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 365029736}
   - 212: {fileID: 365029735}
-  - 61: {fileID: 365029737}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,20 +5247,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 72
---- !u!61 &365029737
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 365029734}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &369547962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,7 +5256,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 369547964}
   - 212: {fileID: 369547963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5659,7 +5314,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 378248829}
   - 212: {fileID: 378248828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5717,7 +5372,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 378690017}
   - 212: {fileID: 378690016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,7 +5430,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 378769646}
   - 212: {fileID: 378769645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,7 +5488,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 379003829}
   - 212: {fileID: 379003828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5891,7 +5546,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 380997613}
   - 212: {fileID: 380997612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5949,7 +5604,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 381175224}
   - 212: {fileID: 381175223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6007,8 +5662,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 383260980}
   - 212: {fileID: 383260979}
-  - 61: {fileID: 383260981}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6057,20 +5711,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 96
---- !u!61 &383260981
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 383260978}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &384457552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,8 +5720,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 384457554}
   - 212: {fileID: 384457553}
-  - 61: {fileID: 384457555}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6130,20 +5769,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 20
---- !u!61 &384457555
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 384457552}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &388675855
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,8 +5778,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 388675857}
   - 212: {fileID: 388675856}
-  - 61: {fileID: 388675858}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6203,20 +5827,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 46
---- !u!61 &388675858
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 388675855}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &395591449
 GameObject:
   m_ObjectHideFlags: 0
@@ -6226,7 +5836,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 395591451}
   - 212: {fileID: 395591450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6284,7 +5894,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 403718600}
   - 212: {fileID: 403718599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6342,8 +5952,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 410468005}
   - 212: {fileID: 410468004}
-  - 61: {fileID: 410468006}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6392,20 +6001,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 34
---- !u!61 &410468006
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410468003}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &410548200
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,8 +6010,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 410548202}
   - 212: {fileID: 410548201}
-  - 61: {fileID: 410548203}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6465,20 +6059,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 52
---- !u!61 &410548203
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410548200}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &416420191
 GameObject:
   m_ObjectHideFlags: 0
@@ -6488,7 +6068,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 416420193}
   - 212: {fileID: 416420192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6546,7 +6126,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 427729744}
   - 212: {fileID: 427729743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6604,7 +6184,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 437368609}
   - 212: {fileID: 437368608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6662,8 +6242,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 442486974}
   - 212: {fileID: 442486973}
-  - 61: {fileID: 442486975}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6712,20 +6291,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 88
---- !u!61 &442486975
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 442486972}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0.0000019073486}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &443558065
 GameObject:
   m_ObjectHideFlags: 0
@@ -6735,7 +6300,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 443558067}
   - 212: {fileID: 443558066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6793,7 +6358,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 463096933}
   - 212: {fileID: 463096932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6851,7 +6416,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 463505475}
   - 212: {fileID: 463505474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6909,7 +6474,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 465053145}
   - 212: {fileID: 465053144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6532,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 468289815}
   - 212: {fileID: 468289814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7025,7 +6590,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 470368126}
   - 212: {fileID: 470368125}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7083,7 +6648,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 475743696}
   - 212: {fileID: 475743695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7141,7 +6706,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 481396295}
   - 212: {fileID: 481396294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7199,7 +6764,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 485368941}
   - 212: {fileID: 485368940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7257,7 +6822,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 493040298}
   - 212: {fileID: 493040299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7315,8 +6880,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 495532271}
   - 212: {fileID: 495532270}
-  - 61: {fileID: 495532272}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7365,20 +6929,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 63
---- !u!61 &495532272
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 495532269}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &499181230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7388,7 +6938,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 499181232}
   - 212: {fileID: 499181231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7446,8 +6996,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 500811202}
   - 212: {fileID: 500811201}
-  - 61: {fileID: 500811203}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7496,20 +7045,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 31
---- !u!61 &500811203
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 500811200}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &501074541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7519,8 +7054,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 501074543}
   - 212: {fileID: 501074542}
-  - 61: {fileID: 501074544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7569,20 +7103,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 24
---- !u!61 &501074544
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 501074541}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &504441324
 GameObject:
   m_ObjectHideFlags: 0
@@ -7592,7 +7112,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 504441326}
   - 212: {fileID: 504441325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7650,8 +7170,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 506786534}
   - 212: {fileID: 506786533}
-  - 61: {fileID: 506786535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7700,20 +7219,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 62
---- !u!61 &506786535
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506786532}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &508407601
 GameObject:
   m_ObjectHideFlags: 0
@@ -7723,7 +7228,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 508407603}
   - 212: {fileID: 508407602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7781,7 +7286,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 508660917}
   - 212: {fileID: 508660916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7839,8 +7344,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 510827309}
   - 212: {fileID: 510827308}
-  - 61: {fileID: 510827310}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7889,20 +7393,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 70
---- !u!61 &510827310
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 510827307}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &512124449
 GameObject:
   m_ObjectHideFlags: 0
@@ -7912,7 +7402,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 512124450}
   - 212: {fileID: 512124451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7970,7 +7460,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 514463610}
   - 212: {fileID: 514463609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8028,7 +7518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 523259892}
   - 212: {fileID: 523259891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8086,7 +7576,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 526197886}
   - 212: {fileID: 526197885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8144,7 +7634,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 526707996}
   - 212: {fileID: 526707995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8202,7 +7692,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 529697845}
   - 212: {fileID: 529697844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8260,8 +7750,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 534695989}
   - 212: {fileID: 534695988}
-  - 61: {fileID: 534695990}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8310,20 +7799,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 64
---- !u!61 &534695990
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 534695987}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &540283606
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,7 +7808,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 540283608}
   - 212: {fileID: 540283607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8391,7 +7866,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 545226730}
   - 212: {fileID: 545226729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8500,7 +7975,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8521,11 +7996,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546959831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.88, y: 0.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1692033761}
-  m_RootOrder: 0
+  m_Father: {fileID: 1457390141}
+  m_RootOrder: 1
 --- !u!1 &560093551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8535,7 +8010,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 560093553}
   - 212: {fileID: 560093552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8593,7 +8068,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 560282470}
   - 212: {fileID: 560282469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8651,7 +8126,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 560553068}
   - 212: {fileID: 560553067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8709,7 +8184,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 562203554}
   - 212: {fileID: 562203553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8767,7 +8242,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 565592203}
   - 212: {fileID: 565592202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8825,7 +8300,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 567087004}
   - 212: {fileID: 567087003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8883,7 +8358,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 569877417}
   - 212: {fileID: 569877416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8941,7 +8416,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 571167801}
   - 212: {fileID: 571167800}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8999,7 +8474,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 577758148}
   - 212: {fileID: 577758147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9057,7 +8532,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 580178849}
   - 212: {fileID: 580178848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9115,7 +8590,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 589510628}
   - 212: {fileID: 589510627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9173,8 +8648,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 593958030}
   - 212: {fileID: 593958029}
-  - 61: {fileID: 593958031}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9223,20 +8697,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 49
---- !u!61 &593958031
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 593958028}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &602383619
 GameObject:
   m_ObjectHideFlags: 0
@@ -9246,8 +8706,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 602383621}
   - 212: {fileID: 602383620}
-  - 61: {fileID: 602383622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9296,20 +8755,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 39
---- !u!61 &602383622
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 602383619}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &606688630
 GameObject:
   m_ObjectHideFlags: 0
@@ -9319,8 +8764,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 606688632}
   - 212: {fileID: 606688631}
-  - 61: {fileID: 606688633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9369,20 +8813,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 32
---- !u!61 &606688633
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 606688630}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &607578670
 GameObject:
   m_ObjectHideFlags: 0
@@ -9525,7 +8955,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 608799508}
   - 212: {fileID: 608799507}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9583,7 +9013,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 609879763}
   - 212: {fileID: 609879762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9641,7 +9071,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 611414017}
   - 212: {fileID: 611414016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9699,7 +9129,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 615073063}
   - 212: {fileID: 615073062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9757,7 +9187,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 619923652}
   - 212: {fileID: 619923651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9815,7 +9245,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 629809709}
   - 212: {fileID: 629809710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9873,7 +9303,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 634870144}
   - 212: {fileID: 634870143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9931,7 +9361,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 644164795}
   - 212: {fileID: 644164794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9989,7 +9419,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 646750400}
   - 212: {fileID: 646750399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10047,7 +9477,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 648556831}
   - 212: {fileID: 648556830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10105,8 +9535,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 654662081}
   - 212: {fileID: 654662080}
-  - 61: {fileID: 654662082}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10155,20 +9584,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 86
---- !u!61 &654662082
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 654662079}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0.0000019073486}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &657080897
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,7 +9593,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 657080899}
   - 212: {fileID: 657080898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10236,7 +9651,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 663077828}
   - 212: {fileID: 663077827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10336,7 +9751,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 669796961}
   - 212: {fileID: 669796960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10394,7 +9809,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 670455461}
   - 212: {fileID: 670455460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10452,7 +9867,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 671208121}
   - 212: {fileID: 671208120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10510,8 +9925,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 672278967}
   - 212: {fileID: 672278966}
-  - 61: {fileID: 672278968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10560,20 +9974,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 101
---- !u!61 &672278968
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 672278965}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0.00000011920929}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &680313313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,7 +9983,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 680313315}
   - 212: {fileID: 680313314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10641,8 +10041,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 681717104}
   - 212: {fileID: 681717103}
-  - 61: {fileID: 681717105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10691,20 +10090,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 35
---- !u!61 &681717105
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 681717102}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &693212975
 GameObject:
   m_ObjectHideFlags: 0
@@ -10714,8 +10099,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 693212977}
   - 212: {fileID: 693212976}
-  - 61: {fileID: 693212978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10764,20 +10148,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 53
---- !u!61 &693212978
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 693212975}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &695368048
 GameObject:
   m_ObjectHideFlags: 0
@@ -10787,7 +10157,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 695368049}
   - 212: {fileID: 695368050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10845,7 +10215,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 695975646}
   - 212: {fileID: 695975645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10903,7 +10273,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 701772932}
   - 212: {fileID: 701772931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10961,7 +10331,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 701885695}
   - 212: {fileID: 701885696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11019,7 +10389,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 704552663}
   - 212: {fileID: 704552662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11077,7 +10447,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 708913834}
   - 212: {fileID: 708913833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11135,7 +10505,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 714783334}
   - 212: {fileID: 714783333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11193,8 +10563,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 715178542}
   - 212: {fileID: 715178541}
-  - 61: {fileID: 715178543}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11243,20 +10612,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 87
---- !u!61 &715178543
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 715178540}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.00000047683716, y: 0.0000019073486}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &715740613
 GameObject:
   m_ObjectHideFlags: 0
@@ -11266,7 +10621,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 715740615}
   - 212: {fileID: 715740614}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11324,7 +10679,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 728693271}
   - 212: {fileID: 728693270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11382,8 +10737,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 732917677}
   - 212: {fileID: 732917676}
-  - 61: {fileID: 732917678}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11432,20 +10786,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 44
---- !u!61 &732917678
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732917675}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &733504947
 GameObject:
   m_ObjectHideFlags: 0
@@ -11455,7 +10795,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 733504949}
   - 212: {fileID: 733504948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11513,7 +10853,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 735686279}
   - 212: {fileID: 735686278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11571,7 +10911,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 735867578}
   - 212: {fileID: 735867577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11629,7 +10969,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 737861448}
   - 212: {fileID: 737861447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11687,7 +11027,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 741194548}
   - 212: {fileID: 741194547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11745,7 +11085,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 742880200}
   - 212: {fileID: 742880201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11803,8 +11143,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 744779909}
   - 212: {fileID: 744779908}
-  - 61: {fileID: 744779910}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11853,20 +11192,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 28
---- !u!61 &744779910
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 744779907}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &747011437
 GameObject:
   m_ObjectHideFlags: 0
@@ -11876,7 +11201,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 747011438}
   - 212: {fileID: 747011439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11934,7 +11259,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 756783794}
   - 212: {fileID: 756783793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11992,7 +11317,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 763807688}
   - 212: {fileID: 763807689}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12050,7 +11375,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 766038432}
   - 212: {fileID: 766038431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12108,7 +11433,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 771796712}
   - 212: {fileID: 771796711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12166,7 +11491,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 779129323}
   - 212: {fileID: 779129322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12224,7 +11549,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 779703788}
   - 212: {fileID: 779703787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12282,7 +11607,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 786226116}
   - 212: {fileID: 786226117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12340,7 +11665,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 787528762}
   - 212: {fileID: 787528761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12398,7 +11723,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 789344032}
   - 212: {fileID: 789344033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12456,7 +11781,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 796536978}
   - 212: {fileID: 796536977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12514,7 +11839,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 801214998}
   - 212: {fileID: 801214997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12572,7 +11897,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 812623799}
   - 212: {fileID: 812623798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12630,7 +11955,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 814507192}
   - 212: {fileID: 814507191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12688,8 +12013,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 816396428}
   - 212: {fileID: 816396427}
-  - 61: {fileID: 816396429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12738,20 +12062,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 0
---- !u!61 &816396429
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 816396426}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &818343984
 GameObject:
   m_ObjectHideFlags: 0
@@ -12761,7 +12071,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 818343986}
   - 212: {fileID: 818343985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12819,8 +12129,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 827307269}
   - 212: {fileID: 827307268}
-  - 61: {fileID: 827307270}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12869,20 +12178,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 74
---- !u!61 &827307270
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 827307267}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &827811071
 GameObject:
   m_ObjectHideFlags: 0
@@ -12892,7 +12187,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 827811073}
   - 212: {fileID: 827811072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12950,7 +12245,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 831812284}
   - 212: {fileID: 831812285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13008,7 +12303,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 833770049}
   - 212: {fileID: 833770048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13066,7 +12361,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 839317256}
   - 212: {fileID: 839317255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13124,7 +12419,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 839842452}
   - 212: {fileID: 839842451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13182,7 +12477,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 839879970}
   - 212: {fileID: 839879969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13240,8 +12535,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 842659723}
   - 212: {fileID: 842659722}
-  - 61: {fileID: 842659724}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13290,20 +12584,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 40
---- !u!61 &842659724
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 842659721}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &844384771
 GameObject:
   m_ObjectHideFlags: 0
@@ -13313,7 +12593,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 844384773}
   - 212: {fileID: 844384772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13371,7 +12651,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 847364303}
   - 212: {fileID: 847364304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13429,7 +12709,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 853434778}
   - 212: {fileID: 853434777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13487,8 +12767,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 854621458}
   - 212: {fileID: 854621457}
-  - 61: {fileID: 854621459}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13537,20 +12816,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 56
---- !u!61 &854621459
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 854621456}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &860004824
 GameObject:
   m_ObjectHideFlags: 0
@@ -13560,7 +12825,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 860004826}
   - 212: {fileID: 860004825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13618,7 +12883,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 860396009}
   - 212: {fileID: 860396010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13676,7 +12941,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 864282009}
   - 212: {fileID: 864282008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13734,7 +12999,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 868817087}
   - 212: {fileID: 868817086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13792,7 +13057,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 870399359}
   - 212: {fileID: 870399358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13850,8 +13115,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 897247110}
   - 212: {fileID: 897247109}
-  - 61: {fileID: 897247111}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13900,20 +13164,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 85
---- !u!61 &897247111
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 897247108}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0.0000038146973}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &899129551
 GameObject:
   m_ObjectHideFlags: 0
@@ -13923,7 +13173,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 899129553}
   - 212: {fileID: 899129552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13981,7 +13231,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 900198148}
   - 212: {fileID: 900198149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14039,7 +13289,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 900233571}
   - 212: {fileID: 900233570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14097,7 +13347,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 910920398}
   - 212: {fileID: 910920397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14155,7 +13405,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 914248288}
   - 212: {fileID: 914248287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14213,7 +13463,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 916683877}
   - 212: {fileID: 916683876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14271,7 +13521,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 918659046}
   - 212: {fileID: 918659045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14329,7 +13579,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 920521786}
   - 212: {fileID: 920521785}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14387,7 +13637,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 920746438}
   - 212: {fileID: 920746437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14445,7 +13695,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 920979475}
   - 212: {fileID: 920979474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14503,8 +13753,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 921913616}
   - 212: {fileID: 921913615}
-  - 61: {fileID: 921913617}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14553,20 +13802,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 36
---- !u!61 &921913617
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 921913614}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &930063513
 GameObject:
   m_ObjectHideFlags: 0
@@ -14576,7 +13811,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 930063514}
   - 212: {fileID: 930063515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14634,8 +13869,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 933616042}
   - 212: {fileID: 933616041}
-  - 61: {fileID: 933616043}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14684,20 +13918,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 19
---- !u!61 &933616043
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 933616040}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &941093249
 GameObject:
   m_ObjectHideFlags: 0
@@ -14707,7 +13927,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 941093251}
   - 212: {fileID: 941093250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14765,7 +13985,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 942927958}
   - 212: {fileID: 942927959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14823,7 +14043,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 945090353}
   - 212: {fileID: 945090354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14881,7 +14101,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 948807321}
   - 212: {fileID: 948807320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14939,7 +14159,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 950952449}
   - 212: {fileID: 950952448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14997,7 +14217,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 955219148}
   - 212: {fileID: 955219147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15055,7 +14275,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 960300394}
   - 212: {fileID: 960300393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15113,7 +14333,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 961170578}
   - 212: {fileID: 961170577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15171,7 +14391,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 971125277}
   - 212: {fileID: 971125276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15229,8 +14449,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 985302181}
   - 212: {fileID: 985302180}
-  - 61: {fileID: 985302182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15279,20 +14498,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 14
---- !u!61 &985302182
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 985302179}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &989756538
 GameObject:
   m_ObjectHideFlags: 0
@@ -15302,8 +14507,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 989756540}
   - 212: {fileID: 989756539}
-  - 61: {fileID: 989756541}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15352,20 +14556,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 2
---- !u!61 &989756541
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 989756538}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1006707013
 GameObject:
   m_ObjectHideFlags: 0
@@ -15375,7 +14565,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1006707014}
   - 212: {fileID: 1006707015}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15433,7 +14623,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1007307599}
   - 212: {fileID: 1007307598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15491,8 +14681,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1008057160}
   - 212: {fileID: 1008057159}
-  - 61: {fileID: 1008057161}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15541,20 +14730,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 43
---- !u!61 &1008057161
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1008057158}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1009664175
 GameObject:
   m_ObjectHideFlags: 0
@@ -15564,7 +14739,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1009664177}
   - 212: {fileID: 1009664176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15622,7 +14797,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1010924417}
   - 212: {fileID: 1010924418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15680,8 +14855,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1014653696}
   - 212: {fileID: 1014653695}
-  - 61: {fileID: 1014653697}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15730,20 +14904,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 30
---- !u!61 &1014653697
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1014653694}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1025569107
 GameObject:
   m_ObjectHideFlags: 0
@@ -15753,7 +14913,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1025569109}
   - 212: {fileID: 1025569108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15811,7 +14971,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1036765211}
   - 212: {fileID: 1036765210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15869,8 +15029,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1041463191}
   - 212: {fileID: 1041463190}
-  - 61: {fileID: 1041463192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15919,20 +15078,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 92
---- !u!61 &1041463192
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1041463189}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1049062934
 GameObject:
   m_ObjectHideFlags: 0
@@ -15942,8 +15087,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1049062936}
   - 212: {fileID: 1049062935}
-  - 61: {fileID: 1049062937}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15992,20 +15136,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 103
---- !u!61 &1049062937
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1049062934}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1049704832
 GameObject:
   m_ObjectHideFlags: 0
@@ -16015,7 +15145,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1049704834}
   - 212: {fileID: 1049704833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16073,7 +15203,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1053362161}
   - 212: {fileID: 1053362160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16131,7 +15261,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1054137695}
   - 212: {fileID: 1054137696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16189,7 +15319,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1056387245}
   - 212: {fileID: 1056387244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16247,7 +15377,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1064428639}
   - 212: {fileID: 1064428638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16305,7 +15435,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1070299028}
   - 212: {fileID: 1070299027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16363,7 +15493,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1070600590}
   - 212: {fileID: 1070600589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16421,8 +15551,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1070970638}
   - 212: {fileID: 1070970637}
-  - 61: {fileID: 1070970639}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16471,20 +15600,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 89
---- !u!61 &1070970639
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1070970636}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1075598554
 GameObject:
   m_ObjectHideFlags: 0
@@ -16494,7 +15609,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1075598556}
   - 212: {fileID: 1075598555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16552,7 +15667,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1081234798}
   - 212: {fileID: 1081234797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16610,7 +15725,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1081566855}
   - 212: {fileID: 1081566854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16668,7 +15783,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1087082997}
   - 212: {fileID: 1087082996}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16726,7 +15841,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1089456266}
   - 212: {fileID: 1089456265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16784,7 +15899,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1093586288}
   - 212: {fileID: 1093586287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16842,7 +15957,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1101533567}
   - 212: {fileID: 1101533566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16900,8 +16015,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1103809782}
   - 212: {fileID: 1103809781}
-  - 61: {fileID: 1103809783}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16950,20 +16064,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 47
---- !u!61 &1103809783
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1103809780}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1111409284
 GameObject:
   m_ObjectHideFlags: 0
@@ -16973,7 +16073,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1111409286}
   - 212: {fileID: 1111409285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17031,7 +16131,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1115859950}
   - 212: {fileID: 1115859949}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17089,8 +16189,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1116213059}
   - 212: {fileID: 1116213058}
-  - 61: {fileID: 1116213060}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17139,20 +16238,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 29
---- !u!61 &1116213060
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116213057}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1117589994
 GameObject:
   m_ObjectHideFlags: 0
@@ -17162,7 +16247,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1117589995}
   - 212: {fileID: 1117589996}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17220,7 +16305,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1120274331}
   - 212: {fileID: 1120274332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17278,7 +16363,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1121000079}
   - 212: {fileID: 1121000078}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17327,48 +16412,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 19
---- !u!1001 &1122365698
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1128366286
 GameObject:
   m_ObjectHideFlags: 0
@@ -17378,7 +16421,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1128366288}
   - 212: {fileID: 1128366287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17436,7 +16479,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1128418549}
   - 212: {fileID: 1128418548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17494,7 +16537,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1130505685}
   - 212: {fileID: 1130505684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17552,7 +16595,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1136661585}
   - 212: {fileID: 1136661584}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17610,7 +16653,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1137039048}
   - 212: {fileID: 1137039047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17668,7 +16711,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1137145484}
   - 212: {fileID: 1137145483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17726,7 +16769,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1145369962}
   - 212: {fileID: 1145369961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17784,7 +16827,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1151316016}
   - 212: {fileID: 1151316015}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17842,7 +16885,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1155809376}
   - 212: {fileID: 1155809375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17900,7 +16943,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1157055465}
   - 212: {fileID: 1157055464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17958,8 +17001,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1158048757}
   - 212: {fileID: 1158048756}
-  - 61: {fileID: 1158048758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18008,20 +17050,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 78
---- !u!61 &1158048758
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1158048755}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1160501403
 GameObject:
   m_ObjectHideFlags: 0
@@ -18031,7 +17059,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1160501405}
   - 212: {fileID: 1160501404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18089,7 +17117,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1171129366}
   - 212: {fileID: 1171129367}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18147,7 +17175,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1173695494}
   - 212: {fileID: 1173695493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18205,7 +17233,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1195193966}
   - 212: {fileID: 1195193965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18263,7 +17291,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1201740033}
   - 212: {fileID: 1201740032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18321,7 +17349,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1201929567}
   - 212: {fileID: 1201929566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18379,7 +17407,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1204461012}
   - 212: {fileID: 1204461011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18437,7 +17465,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1205128673}
   - 212: {fileID: 1205128672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18495,8 +17523,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1205864449}
   - 212: {fileID: 1205864448}
-  - 61: {fileID: 1205864450}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18545,20 +17572,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 75
---- !u!61 &1205864450
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1205864447}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1208803946
 GameObject:
   m_ObjectHideFlags: 0
@@ -18568,7 +17581,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1208803948}
   - 212: {fileID: 1208803947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18626,7 +17639,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1211292376}
   - 212: {fileID: 1211292375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18684,7 +17697,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1212602498}
   - 212: {fileID: 1212602497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18742,7 +17755,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1224957698}
   - 212: {fileID: 1224957699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18800,7 +17813,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1226712548}
   - 212: {fileID: 1226712547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18858,7 +17871,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1229910596}
   - 212: {fileID: 1229910595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18916,7 +17929,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1231699054}
   - 212: {fileID: 1231699053}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18974,8 +17987,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1231924787}
   - 212: {fileID: 1231924786}
-  - 61: {fileID: 1231924788}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19024,20 +18036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 4
---- !u!61 &1231924788
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1231924785}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1232272728
 GameObject:
   m_ObjectHideFlags: 0
@@ -19047,8 +18045,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1232272730}
   - 212: {fileID: 1232272729}
-  - 61: {fileID: 1232272731}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19097,20 +18094,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 15
---- !u!61 &1232272731
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1232272728}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1240512474
 GameObject:
   m_ObjectHideFlags: 0
@@ -19120,7 +18103,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1240512476}
   - 212: {fileID: 1240512475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19178,7 +18161,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1240644451}
   - 212: {fileID: 1240644450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19236,7 +18219,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1243192576}
   - 212: {fileID: 1243192575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19294,8 +18277,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1243518407}
   - 212: {fileID: 1243518406}
-  - 61: {fileID: 1243518408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19344,20 +18326,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 98
---- !u!61 &1243518408
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1243518405}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1243687881
 GameObject:
   m_ObjectHideFlags: 0
@@ -19367,7 +18335,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1243687883}
   - 212: {fileID: 1243687882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19425,8 +18393,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1248275344}
   - 212: {fileID: 1248275343}
-  - 61: {fileID: 1248275345}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19475,20 +18442,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 18
---- !u!61 &1248275345
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1248275342}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1255170359
 GameObject:
   m_ObjectHideFlags: 0
@@ -19498,7 +18451,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1255170361}
   - 212: {fileID: 1255170360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19556,7 +18509,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1258523287}
   - 212: {fileID: 1258523286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19614,8 +18567,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1259039323}
   - 212: {fileID: 1259039322}
-  - 61: {fileID: 1259039324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19664,20 +18616,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 37
---- !u!61 &1259039324
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1259039321}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1264599311
 GameObject:
   m_ObjectHideFlags: 0
@@ -19687,7 +18625,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1264599313}
   - 212: {fileID: 1264599312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19745,7 +18683,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1265238347}
   - 212: {fileID: 1265238348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19803,7 +18741,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1265765955}
   - 212: {fileID: 1265765954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19861,7 +18799,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1266654353}
   - 212: {fileID: 1266654352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19919,7 +18857,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1273964240}
   - 212: {fileID: 1273964239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19977,7 +18915,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1278165422}
   - 212: {fileID: 1278165421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20035,7 +18973,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1278353545}
   - 212: {fileID: 1278353544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20093,7 +19031,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1294910419}
   - 212: {fileID: 1294910420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20151,7 +19089,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1299591519}
   - 212: {fileID: 1299591518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20209,7 +19147,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1301805013}
   - 212: {fileID: 1301805012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20267,7 +19205,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1302749454}
   - 212: {fileID: 1302749453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20325,7 +19263,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1310079380}
   - 212: {fileID: 1310079379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20383,7 +19321,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1312784744}
   - 212: {fileID: 1312784743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20441,7 +19379,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1320745526}
   - 212: {fileID: 1320745525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20499,7 +19437,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1324900190}
   - 212: {fileID: 1324900189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20557,7 +19495,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1325648373}
   - 212: {fileID: 1325648372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20615,7 +19553,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1327540158}
   - 212: {fileID: 1327540157}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20673,7 +19611,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1337750237}
   - 212: {fileID: 1337750236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20731,7 +19669,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1346540679}
   - 212: {fileID: 1346540680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20789,7 +19727,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1346981664}
   - 212: {fileID: 1346981665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20847,7 +19785,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1348135908}
   - 212: {fileID: 1348135907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20905,8 +19843,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1350764155}
   - 212: {fileID: 1350764154}
-  - 61: {fileID: 1350764156}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20955,20 +19892,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 16
---- !u!61 &1350764156
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1350764153}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1360423140
 GameObject:
   m_ObjectHideFlags: 0
@@ -20978,7 +19901,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1360423142}
   - 212: {fileID: 1360423141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21036,7 +19959,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1361434655}
   - 212: {fileID: 1361434654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21094,7 +20017,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1365312795}
   - 212: {fileID: 1365312794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21152,7 +20075,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1367765242}
   - 212: {fileID: 1367765241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21210,8 +20133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1371802537}
   - 212: {fileID: 1371802536}
-  - 61: {fileID: 1371802538}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21260,20 +20182,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 84
---- !u!61 &1371802538
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371802535}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.00000047683716, y: 0.0000038146973}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &1374804506
 GameObject:
   m_ObjectHideFlags: 0
@@ -21283,7 +20191,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1374804507}
   - 212: {fileID: 1374804508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21341,8 +20249,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1389481577}
   - 212: {fileID: 1389481576}
-  - 61: {fileID: 1389481578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21391,20 +20298,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 59
---- !u!61 &1389481578
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1389481575}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1390005214
 GameObject:
   m_ObjectHideFlags: 0
@@ -21414,8 +20307,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1390005216}
   - 212: {fileID: 1390005215}
-  - 61: {fileID: 1390005217}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21464,20 +20356,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 71
---- !u!61 &1390005217
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1390005214}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1408519015
 GameObject:
   m_ObjectHideFlags: 0
@@ -21487,8 +20365,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1408519017}
   - 212: {fileID: 1408519016}
-  - 61: {fileID: 1408519018}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21537,20 +20414,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 99
---- !u!61 &1408519018
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1408519015}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1408785879
 GameObject:
   m_ObjectHideFlags: 0
@@ -21982,7 +20845,7 @@ Transform:
   - {fileID: 1725563910}
   - {fileID: 1931892747}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1 &1414042807
 GameObject:
   m_ObjectHideFlags: 0
@@ -21992,7 +20855,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1414042809}
   - 212: {fileID: 1414042808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22050,7 +20913,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1418027761}
   - 212: {fileID: 1418027760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22108,7 +20971,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1422740799}
   - 212: {fileID: 1422740798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22166,7 +21029,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1423433996}
   - 212: {fileID: 1423433997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22224,7 +21087,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1428655605}
   - 212: {fileID: 1428655604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22282,8 +21145,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1451649153}
   - 212: {fileID: 1451649152}
-  - 61: {fileID: 1451649154}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22332,20 +21194,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 100
---- !u!61 &1451649154
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1451649151}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1454116054
 GameObject:
   m_ObjectHideFlags: 0
@@ -22355,8 +21203,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1454116056}
   - 212: {fileID: 1454116055}
-  - 61: {fileID: 1454116057}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22405,20 +21252,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 79
---- !u!61 &1454116057
-BoxCollider2D:
+--- !u!1 &1457390134 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 103552, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+  m_PrefabInternal: {fileID: 1662251866}
+--- !u!50 &1457390135
+Rigidbody2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1454116054}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
+  m_GameObject: {fileID: 1457390134}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!4 &1457390141 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+  m_PrefabInternal: {fileID: 1662251866}
 --- !u!1 &1459773851
 GameObject:
   m_ObjectHideFlags: 0
@@ -22428,7 +21286,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1459773853}
   - 212: {fileID: 1459773852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22486,7 +21344,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1465163912}
   - 212: {fileID: 1465163911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22544,7 +21402,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1468028925}
   - 212: {fileID: 1468028924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22602,7 +21460,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1468140497}
   - 212: {fileID: 1468140498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22660,7 +21518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1468300493}
   - 212: {fileID: 1468300492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22718,7 +21576,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1472556545}
   - 212: {fileID: 1472556546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22776,7 +21634,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1477491918}
   - 212: {fileID: 1477491917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22834,8 +21692,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1482374378}
   - 212: {fileID: 1482374377}
-  - 61: {fileID: 1482374379}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22884,20 +21741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 54
---- !u!61 &1482374379
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1482374376}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1482494804
 GameObject:
   m_ObjectHideFlags: 0
@@ -22907,7 +21750,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1482494806}
   - 212: {fileID: 1482494805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22965,7 +21808,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1487439312}
   - 212: {fileID: 1487439311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23023,7 +21866,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1490494077}
   - 212: {fileID: 1490494076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23081,7 +21924,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1495286281}
   - 212: {fileID: 1495286280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23139,7 +21982,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1500824863}
   - 212: {fileID: 1500824862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23197,8 +22040,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1502135911}
   - 212: {fileID: 1502135910}
-  - 61: {fileID: 1502135912}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23247,20 +22089,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 94
---- !u!61 &1502135912
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1502135909}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1508207619
 GameObject:
   m_ObjectHideFlags: 0
@@ -23270,8 +22098,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1508207621}
   - 212: {fileID: 1508207620}
-  - 61: {fileID: 1508207622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23320,20 +22147,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 12
---- !u!61 &1508207622
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1508207619}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1513710802
 GameObject:
   m_ObjectHideFlags: 0
@@ -23343,7 +22156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1513710804}
   - 212: {fileID: 1513710803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23401,7 +22214,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1520297674}
   - 212: {fileID: 1520297673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23459,7 +22272,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1521837776}
   - 212: {fileID: 1521837775}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23517,8 +22330,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1528646770}
   - 212: {fileID: 1528646769}
-  - 61: {fileID: 1528646771}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23567,20 +22379,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 3
---- !u!61 &1528646771
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1528646768}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1531409964
 GameObject:
   m_ObjectHideFlags: 0
@@ -23590,7 +22388,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1531409966}
   - 212: {fileID: 1531409965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23648,7 +22446,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1532050425}
   - 212: {fileID: 1532050424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23706,7 +22504,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1532372703}
   - 212: {fileID: 1532372702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23764,7 +22562,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1534159449}
   - 212: {fileID: 1534159448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23822,7 +22620,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1536665211}
   - 212: {fileID: 1536665212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23880,7 +22678,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1537386393}
   - 212: {fileID: 1537386392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23938,8 +22736,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1545970616}
   - 212: {fileID: 1545970615}
-  - 61: {fileID: 1545970617}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23988,20 +22785,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 65
---- !u!61 &1545970617
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1545970614}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1546545933
 GameObject:
   m_ObjectHideFlags: 0
@@ -24011,7 +22794,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1546545934}
   - 212: {fileID: 1546545935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24069,7 +22852,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1546807177}
   - 212: {fileID: 1546807176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24127,7 +22910,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1555755070}
   - 212: {fileID: 1555755069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24185,7 +22968,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1565461773}
   - 212: {fileID: 1565461772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24243,7 +23026,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1580403724}
   - 212: {fileID: 1580403723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24301,7 +23084,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1593256925}
   - 212: {fileID: 1593256924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24359,7 +23142,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1598218371}
   - 212: {fileID: 1598218370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24417,7 +23200,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1609939977}
   - 212: {fileID: 1609939976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24475,8 +23258,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1616389853}
   - 212: {fileID: 1616389852}
-  - 61: {fileID: 1616389854}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24525,20 +23307,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 23
---- !u!61 &1616389854
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1616389851}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1618334654
 GameObject:
   m_ObjectHideFlags: 0
@@ -24548,7 +23316,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1618334656}
   - 212: {fileID: 1618334655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24606,7 +23374,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1620398178}
   - 212: {fileID: 1620398179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24664,7 +23432,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1632007800}
   - 212: {fileID: 1632007799}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24722,7 +23490,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1635367412}
   - 212: {fileID: 1635367411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24780,7 +23548,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1646312443}
   - 212: {fileID: 1646312444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24838,7 +23606,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1646506283}
   - 212: {fileID: 1646506282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24896,8 +23664,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1648041556}
   - 212: {fileID: 1648041555}
-  - 61: {fileID: 1648041557}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24946,20 +23713,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 41
---- !u!61 &1648041557
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1648041554}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1652369141
 GameObject:
   m_ObjectHideFlags: 0
@@ -24969,7 +23722,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1652369143}
   - 212: {fileID: 1652369142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25027,7 +23780,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1654632291}
   - 212: {fileID: 1654632290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25085,7 +23838,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1656324509}
   - 212: {fileID: 1656324508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25143,8 +23896,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1657085671}
   - 212: {fileID: 1657085670}
-  - 61: {fileID: 1657085672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25193,20 +23945,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 8
---- !u!61 &1657085672
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1657085669}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1657608045
 GameObject:
   m_ObjectHideFlags: 0
@@ -25216,7 +23954,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1657608047}
   - 212: {fileID: 1657608046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25265,6 +24003,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 327
+--- !u!1001 &1662251866
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1674092646
 GameObject:
   m_ObjectHideFlags: 0
@@ -25274,7 +24054,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1674092648}
   - 212: {fileID: 1674092647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25332,8 +24112,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1674593065}
   - 212: {fileID: 1674593064}
-  - 61: {fileID: 1674593066}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25382,20 +24161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 80
---- !u!61 &1674593066
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1674593063}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1680047629
 GameObject:
   m_ObjectHideFlags: 0
@@ -25405,7 +24170,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1680047631}
   - 212: {fileID: 1680047630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25463,7 +24228,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1680524470}
   - 212: {fileID: 1680524469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25521,7 +24286,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1684043982}
   - 212: {fileID: 1684043981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25570,10 +24335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 129
---- !u!4 &1692033761 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 446280, guid: ec9f56b3b9fb54c2b8197cea53ed0d5a, type: 2}
-  m_PrefabInternal: {fileID: 1122365698}
 --- !u!1 &1695007382
 GameObject:
   m_ObjectHideFlags: 0
@@ -25583,7 +24344,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1695007383}
   - 212: {fileID: 1695007384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25641,8 +24402,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1696033599}
   - 212: {fileID: 1696033598}
-  - 61: {fileID: 1696033600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25691,20 +24451,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 21
---- !u!61 &1696033600
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1696033597}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1696797577
 GameObject:
   m_ObjectHideFlags: 0
@@ -25714,8 +24460,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1696797579}
   - 212: {fileID: 1696797578}
-  - 61: {fileID: 1696797580}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25764,20 +24509,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 22
---- !u!61 &1696797580
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1696797577}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1701138823
 GameObject:
   m_ObjectHideFlags: 0
@@ -25787,7 +24518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1701138825}
   - 212: {fileID: 1701138824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25845,7 +24576,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1702319963}
   - 212: {fileID: 1702319964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25903,7 +24634,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1707391199}
   - 212: {fileID: 1707391200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25961,7 +24692,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1709463546}
   - 212: {fileID: 1709463545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26019,7 +24750,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1717184197}
   - 212: {fileID: 1717184198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26077,7 +24808,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1723996771}
   - 212: {fileID: 1723996770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26135,7 +24866,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1725563910}
   - 212: {fileID: 1725563911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26193,8 +24924,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1728501759}
   - 212: {fileID: 1728501758}
-  - 61: {fileID: 1728501760}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26243,20 +24973,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 95
---- !u!61 &1728501760
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1728501757}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000014305115, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1734790033
 GameObject:
   m_ObjectHideFlags: 0
@@ -26266,7 +24982,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1734790035}
   - 212: {fileID: 1734790034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26324,7 +25040,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1740598153}
   - 212: {fileID: 1740598152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26382,7 +25098,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1744593596}
   - 212: {fileID: 1744593595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26440,7 +25156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1749407935}
   - 212: {fileID: 1749407934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26498,8 +25214,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1750397478}
   - 212: {fileID: 1750397477}
-  - 61: {fileID: 1750397479}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26548,20 +25263,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 93
---- !u!61 &1750397479
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1750397476}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1753490663
 GameObject:
   m_ObjectHideFlags: 0
@@ -26571,7 +25272,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1753490665}
   - 212: {fileID: 1753490664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26629,8 +25330,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1767031171}
   - 212: {fileID: 1767031170}
-  - 61: {fileID: 1767031172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26679,20 +25379,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 10
---- !u!61 &1767031172
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1767031169}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1767326123
 GameObject:
   m_ObjectHideFlags: 0
@@ -26702,7 +25388,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1767326125}
   - 212: {fileID: 1767326124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26760,8 +25446,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1784898329}
   - 212: {fileID: 1784898328}
-  - 61: {fileID: 1784898330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26810,20 +25495,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 57
---- !u!61 &1784898330
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1784898327}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1795744779
 GameObject:
   m_ObjectHideFlags: 0
@@ -26833,7 +25504,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1795744780}
   - 212: {fileID: 1795744781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26891,7 +25562,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1796094862}
   - 212: {fileID: 1796094861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26949,8 +25620,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1800123661}
   - 212: {fileID: 1800123660}
-  - 61: {fileID: 1800123662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26999,20 +25669,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 58
---- !u!61 &1800123662
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1800123659}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1806130799
 GameObject:
   m_ObjectHideFlags: 0
@@ -27022,7 +25678,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1806130801}
   - 212: {fileID: 1806130800}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27080,7 +25736,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1816392931}
   - 212: {fileID: 1816392930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27138,7 +25794,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1824150998}
   - 212: {fileID: 1824150997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27196,7 +25852,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1828555592}
   - 212: {fileID: 1828555591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27254,7 +25910,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1833533063}
   - 212: {fileID: 1833533062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27312,7 +25968,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1841197412}
   - 212: {fileID: 1841197411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27370,7 +26026,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1845946470}
   - 212: {fileID: 1845946469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27428,7 +26084,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1847136690}
   - 212: {fileID: 1847136689}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27486,7 +26142,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1847916371}
   - 212: {fileID: 1847916370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27544,7 +26200,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1849461638}
   - 212: {fileID: 1849461637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27602,8 +26258,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1854816225}
   - 212: {fileID: 1854816224}
-  - 61: {fileID: 1854816226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27652,20 +26307,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 55
---- !u!61 &1854816226
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1854816223}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1859394462
 GameObject:
   m_ObjectHideFlags: 0
@@ -27675,7 +26316,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1859394464}
   - 212: {fileID: 1859394463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27733,7 +26374,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1861425851}
   - 212: {fileID: 1861425850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27791,7 +26432,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1867534190}
   - 212: {fileID: 1867534189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27849,7 +26490,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1868012839}
   - 212: {fileID: 1868012838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27907,8 +26548,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1870390935}
   - 212: {fileID: 1870390934}
-  - 61: {fileID: 1870390936}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27957,20 +26597,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 91
---- !u!61 &1870390936
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1870390933}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1870514823
 GameObject:
   m_ObjectHideFlags: 0
@@ -27980,8 +26606,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1870514825}
   - 212: {fileID: 1870514824}
-  - 61: {fileID: 1870514826}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28030,20 +26655,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 61
---- !u!61 &1870514826
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1870514823}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1873837833
 GameObject:
   m_ObjectHideFlags: 0
@@ -28053,7 +26664,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1873837835}
   - 212: {fileID: 1873837834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28111,7 +26722,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1884568423}
   - 212: {fileID: 1884568422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28169,8 +26780,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1885322995}
   - 212: {fileID: 1885322994}
-  - 61: {fileID: 1885322996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28219,20 +26829,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 90
---- !u!61 &1885322996
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1885322993}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1886795039
 GameObject:
   m_ObjectHideFlags: 0
@@ -28242,7 +26838,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1886795041}
   - 212: {fileID: 1886795040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28300,8 +26896,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1889301670}
   - 212: {fileID: 1889301669}
-  - 61: {fileID: 1889301671}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28350,20 +26945,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 82
---- !u!61 &1889301671
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1889301668}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1889415203
 GameObject:
   m_ObjectHideFlags: 0
@@ -28373,7 +26954,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1889415204}
   - 212: {fileID: 1889415205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28431,7 +27012,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1892751475}
   - 212: {fileID: 1892751474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28489,8 +27070,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1894012172}
   - 212: {fileID: 1894012171}
-  - 61: {fileID: 1894012173}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28539,20 +27119,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 105
---- !u!61 &1894012173
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1894012170}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &1897608489
 GameObject:
   m_ObjectHideFlags: 0
@@ -28562,7 +27128,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1897608491}
   - 212: {fileID: 1897608490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28620,8 +27186,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1897689016}
   - 212: {fileID: 1897689015}
-  - 61: {fileID: 1897689017}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28670,20 +27235,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 76
---- !u!61 &1897689017
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1897689014}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1899149056
 GameObject:
   m_ObjectHideFlags: 0
@@ -28693,7 +27244,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1899149058}
   - 212: {fileID: 1899149057}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28751,7 +27302,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1903512080}
   - 212: {fileID: 1903512079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28809,8 +27360,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1903698860}
   - 212: {fileID: 1903698859}
-  - 61: {fileID: 1903698861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28859,20 +27409,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 38
---- !u!61 &1903698861
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1903698858}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1904048103
 GameObject:
   m_ObjectHideFlags: 0
@@ -28882,7 +27418,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1904048105}
   - 212: {fileID: 1904048104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28940,7 +27476,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1908724046}
   - 212: {fileID: 1908724045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28998,7 +27534,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1924763569}
   - 212: {fileID: 1924763568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29056,7 +27592,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1926917631}
   - 212: {fileID: 1926917630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29114,7 +27650,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1929033299}
   - 212: {fileID: 1929033300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29172,7 +27708,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1931892747}
   - 212: {fileID: 1931892748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29230,8 +27766,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1937265332}
   - 212: {fileID: 1937265331}
-  - 61: {fileID: 1937265333}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29280,20 +27815,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 97
---- !u!61 &1937265333
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1937265330}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0000009536743, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1943770102
 GameObject:
   m_ObjectHideFlags: 0
@@ -29303,7 +27824,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1943770104}
   - 212: {fileID: 1943770103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29361,7 +27882,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1944529491}
   - 212: {fileID: 1944529490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29419,7 +27940,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1955857450}
   - 212: {fileID: 1955857449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29477,7 +27998,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1972664929}
   - 212: {fileID: 1972664928}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29535,7 +28056,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1989391748}
   - 212: {fileID: 1989391747}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29593,7 +28114,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2007884027}
   - 212: {fileID: 2007884028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29651,7 +28172,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2012177480}
   - 212: {fileID: 2012177479}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29709,7 +28230,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2013062619}
   - 212: {fileID: 2013062618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29767,7 +28288,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2014211770}
   - 212: {fileID: 2014211769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29825,7 +28346,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2016458891}
   - 212: {fileID: 2016458890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29883,8 +28404,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2021384257}
   - 212: {fileID: 2021384256}
-  - 61: {fileID: 2021384258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29933,20 +28453,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 48
---- !u!61 &2021384258
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2021384255}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2021776460
 GameObject:
   m_ObjectHideFlags: 0
@@ -29956,7 +28462,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2021776462}
   - 212: {fileID: 2021776461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30014,7 +28520,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2035435433}
   - 212: {fileID: 2035435432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30072,7 +28578,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2043872574}
   - 212: {fileID: 2043872573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30130,7 +28636,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2050085695}
   - 212: {fileID: 2050085694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30188,7 +28694,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2051110973}
   - 212: {fileID: 2051110972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30276,7 +28782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &2056024043
 GameObject:
   m_ObjectHideFlags: 0
@@ -30286,8 +28792,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2056024045}
   - 212: {fileID: 2056024044}
-  - 61: {fileID: 2056024046}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30336,20 +28841,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 102
---- !u!61 &2056024046
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2056024043}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.000000059604645}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2056487034
 GameObject:
   m_ObjectHideFlags: 0
@@ -30359,7 +28850,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2056487036}
   - 212: {fileID: 2056487035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30417,7 +28908,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2058453814}
   - 212: {fileID: 2058453813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30475,7 +28966,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2058705310}
   - 212: {fileID: 2058705309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30533,7 +29024,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2062923343}
   - 212: {fileID: 2062923344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30591,7 +29082,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2065355474}
   - 212: {fileID: 2065355473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30649,7 +29140,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2073578844}
   - 212: {fileID: 2073578843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30707,8 +29198,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2079142391}
   - 212: {fileID: 2079142390}
-  - 61: {fileID: 2079142392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30757,20 +29247,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 7
---- !u!61 &2079142392
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2079142389}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2079696132
 GameObject:
   m_ObjectHideFlags: 0
@@ -30780,7 +29256,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2079696134}
   - 212: {fileID: 2079696133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30838,7 +29314,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2082082915}
   - 212: {fileID: 2082082914}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30896,7 +29372,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2082648761}
   - 212: {fileID: 2082648760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30954,7 +29430,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2090371326}
   - 212: {fileID: 2090371325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31012,7 +29488,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2099693768}
   - 212: {fileID: 2099693769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31070,8 +29546,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2102989331}
   - 212: {fileID: 2102989330}
-  - 61: {fileID: 2102989332}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31120,20 +29595,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 83
---- !u!61 &2102989332
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2102989329}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2106010719
 GameObject:
   m_ObjectHideFlags: 0
@@ -31143,7 +29604,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2106010721}
   - 212: {fileID: 2106010720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31201,7 +29662,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2112247481}
   - 212: {fileID: 2112247480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31259,7 +29720,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2116670166}
   - 212: {fileID: 2116670165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31317,8 +29778,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2117439244}
   - 212: {fileID: 2117439243}
-  - 61: {fileID: 2117439245}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31367,20 +29827,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 42
---- !u!61 &2117439245
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2117439242}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2117674262
 GameObject:
   m_ObjectHideFlags: 0
@@ -31390,7 +29836,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2117674263}
   - 212: {fileID: 2117674264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31448,7 +29894,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2123942766}
   - 212: {fileID: 2123942765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31506,7 +29952,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2127847153}
   - 212: {fileID: 2127847152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31564,7 +30010,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2128402284}
   - 212: {fileID: 2128402283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31622,7 +30068,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2131349351}
   - 212: {fileID: 2131349350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31680,7 +30126,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2133265883}
   - 212: {fileID: 2133265884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31738,8 +30184,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2134923020}
   - 212: {fileID: 2134923019}
-  - 61: {fileID: 2134923021}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31788,20 +30233,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 27
---- !u!61 &2134923021
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2134923018}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2136318970
 GameObject:
   m_ObjectHideFlags: 0
@@ -31811,7 +30242,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2136318972}
   - 212: {fileID: 2136318971}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31869,7 +30300,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2138651517}
   - 212: {fileID: 2138651516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31927,7 +30358,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2143071397}
   - 212: {fileID: 2143071396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31985,7 +30416,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2143328159}
   - 212: {fileID: 2143328158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32043,7 +30474,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2144136173}
   - 212: {fileID: 2144136172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 4x4 tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
