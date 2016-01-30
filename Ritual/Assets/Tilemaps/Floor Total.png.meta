@@ -1,0 +1,957 @@
+fileFormatVersion: 2
+guid: 518d0358179274e33a47d5013d4d1fc8
+timeCreated: 1454122790
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Floor Total_0
+    21300002: Floor Total_1
+    21300004: Floor Total_2
+    21300006: Floor Total_3
+    21300008: Floor Total_4
+    21300010: Floor Total_5
+    21300012: Floor Total_6
+    21300014: Floor Total_7
+    21300016: Floor Total_8
+    21300018: Floor Total_9
+    21300020: Floor Total_10
+    21300022: Floor Total_11
+    21300024: Floor Total_12
+    21300026: Floor Total_13
+    21300028: Floor Total_14
+    21300030: Floor Total_15
+    21300032: Floor Total_16
+    21300034: Floor Total_17
+    21300036: Floor Total_18
+    21300038: Floor Total_19
+    21300040: Floor Total_20
+    21300042: Floor Total_21
+    21300044: Floor Total_22
+    21300046: Floor Total_23
+    21300048: Floor Total_24
+    21300050: Floor Total_25
+    21300052: Floor Total_26
+    21300054: Floor Total_27
+    21300056: Floor Total_28
+    21300058: Floor Total_29
+    21300060: Floor Total_30
+    21300062: Floor Total_31
+    21300064: Floor Total_32
+    21300066: Floor Total_33
+    21300068: Floor Total_34
+    21300070: Floor Total_35
+    21300072: Floor Total_36
+    21300074: Floor Total_37
+    21300076: Floor Total_38
+    21300078: Floor Total_39
+    21300080: Floor Total_40
+    21300082: Floor Total_41
+    21300084: Floor Total_42
+    21300086: Floor Total_43
+    21300088: Floor Total_44
+    21300090: Floor Total_45
+    21300092: Floor Total_46
+    21300094: Floor Total_47
+    21300096: Floor Total_48
+    21300098: Floor Total_49
+    21300100: Floor Total_50
+    21300102: Floor Total_51
+    21300104: Floor Total_52
+    21300106: Floor Total_53
+    21300108: Floor Total_54
+    21300110: Floor Total_55
+    21300112: Floor Total_56
+    21300114: Floor Total_57
+    21300116: Floor Total_58
+    21300118: Floor Total_59
+    21300120: Floor Total_60
+    21300122: Floor Total_61
+    21300124: Floor Total_62
+    21300126: Floor Total_63
+    21300128: Floor Total_64
+    21300130: Floor Total_65
+    21300132: Floor Total_66
+    21300134: Floor Total_67
+    21300136: Floor Total_68
+    21300138: Floor Total_69
+    21300140: Floor Total_70
+    21300142: Floor Total_71
+    21300144: Floor Total_72
+    21300146: Floor Total_73
+    21300148: Floor Total_74
+    21300150: Floor Total_75
+    21300152: Floor Total_76
+    21300154: Floor Total_77
+    21300156: Floor Total_78
+    21300158: Floor Total_79
+    21300160: Floor Total_80
+    21300162: Floor Total_81
+    21300164: Floor Total_82
+    21300166: Floor Total_83
+    21300168: Floor Total_84
+    21300170: Floor Total_85
+    21300172: Floor Total_86
+    21300174: Floor Total_87
+    21300176: Floor Total_88
+    21300178: Floor Total_89
+    21300180: Floor Total_90
+    21300182: Floor Total_91
+    21300184: Floor Total_92
+    21300186: Floor Total_93
+    21300188: Floor Total_94
+    21300190: Floor Total_95
+    21300192: Floor Total_96
+    21300194: Floor Total_97
+    21300196: Floor Total_98
+    21300198: Floor Total_99
+    21300200: Floor Total_100
+    21300202: Floor Total_101
+    21300204: Floor Total_102
+    21300206: Floor Total_103
+    21300208: Floor Total_104
+    21300210: Floor Total_105
+    21300212: Floor Total_106
+    21300214: Floor Total_107
+    21300216: Floor Total_108
+    21300218: Floor Total_109
+    21300220: Floor Total_110
+    21300222: Floor Total_111
+    21300224: Floor Total_112
+    21300226: Floor Total_113
+    21300228: Floor Total_114
+    21300230: Floor Total_115
+    21300232: Floor Total_116
+    21300234: Floor Total_117
+    21300236: Floor Total_118
+    21300238: Floor Total_119
+    21300240: Floor Total_120
+    21300242: Floor Total_121
+    21300244: Floor Total_122
+    21300246: Floor Total_123
+    21300248: Floor Total_124
+    21300250: Floor Total_125
+    21300252: Floor Total_126
+    21300254: Floor Total_127
+    21300256: Floor Total_128
+    21300258: Floor Total_129
+    21300260: Floor Total_130
+    21300262: Floor Total_131
+    21300264: Floor Total_132
+    21300266: Floor Total_133
+    21300268: Floor Total_134
+    21300270: Floor Total_135
+    21300272: Floor Total_136
+    21300274: Floor Total_137
+    21300276: Floor Total_138
+    21300278: Floor Total_139
+    21300280: Floor Total_140
+    21300282: Floor Total_141
+    21300284: Floor Total_142
+    21300286: Floor Total_143
+    21300288: Floor Total_144
+    21300290: Floor Total_145
+    21300292: Floor Total_146
+    21300294: Floor Total_147
+    21300296: Floor Total_148
+    21300298: Floor Total_149
+    21300300: Floor Total_150
+    21300302: Floor Total_151
+    21300304: Floor Total_152
+    21300306: Floor Total_153
+    21300308: Floor Total_154
+    21300310: Floor Total_155
+    21300312: Floor Total_156
+    21300314: Floor Total_157
+    21300316: Floor Total_158
+    21300318: Floor Total_159
+    21300320: Floor Total_160
+    21300322: Floor Total_161
+    21300324: Floor Total_162
+    21300326: Floor Total_163
+    21300328: Floor Total_164
+    21300330: Floor Total_165
+    21300332: Floor Total_166
+    21300334: Floor Total_167
+    21300336: Floor Total_168
+    21300338: Floor Total_169
+    21300340: Floor Total_170
+    21300342: Floor Total_171
+    21300344: Floor Total_172
+    21300346: Floor Total_173
+    21300348: Floor Total_174
+    21300350: Floor Total_175
+    21300352: Floor Total_176
+    21300354: Floor Total_177
+    21300356: Floor Total_178
+    21300358: Floor Total_179
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Floor Total_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 738
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 738
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 738
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 738
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 674
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 674
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 674
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 674
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 610
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 610
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 610
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 610
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 546
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 546
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 546
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 546
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 482
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 482
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 482
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 482
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 418
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 418
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 418
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 418
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 354
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 354
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 354
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 354
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 290
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 290
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 290
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 226
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 226
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 226
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 226
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 162
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 162
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 162
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 162
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 98
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 98
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 98
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 34
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    - name: Floor Total_47
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 34
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: -32}
+        - {x: 96, y: -32}
+        - {x: 96, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
