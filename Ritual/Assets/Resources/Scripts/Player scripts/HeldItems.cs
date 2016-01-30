@@ -18,7 +18,7 @@ public class HeldItems : MonoBehaviour {
 
 	}
 
-    public void Reset()
+    public static void Reset()
     {
         heldSacrificialItems = 0;
     }

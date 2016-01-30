@@ -51,5 +51,8 @@ public class BulletController : MonoBehaviour {
 		if (other.gameObject.tag == "Player") {
 			other.gameObject.GetComponent<PlayerController> ().hit (this.gameObject);
 		}
+		if (other.gameObject.tag == "Wall") {
+			Destroy (gameObject);
+		}
 	}
 }
