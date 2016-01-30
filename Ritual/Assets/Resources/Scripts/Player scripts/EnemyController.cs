@@ -130,15 +130,15 @@ public class EnemyController : MonoBehaviour {
 	void Animate () {
 		Vector3 temp = this.transform.localScale;
 
-		if (direction = 4) {
+		if (direction == 4) {
 			temp.x = 0.3f;
 			animation.SetBool ("isWalking", true);
-		} else if (direction = 3) {
+		} else if (direction == 3) {
 			animation.SetBool ("isWalking", true);
-		} else if (direction = 2) {
+		} else if (direction == 2) {
 			temp.x = -0.3f;
 			animation.SetBool ("isWalking", true);
-		} else if (direction = 1) {
+		} else if (direction == 1) {
 			animation.SetBool ("isWalking", true);
 		} else {
 			animation.SetBool ("isWalking", false);
