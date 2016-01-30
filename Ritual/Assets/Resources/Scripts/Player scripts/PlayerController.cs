@@ -7,12 +7,17 @@ public class PlayerController : MonoBehaviour
     protected float moveHorizontal, moveVertical;
 	public float direction; //1=down 2=left 3=up 4=right
     private Rigidbody2D playerRigidbody;
+	private GameController gameController;
 
     public static bool moveAllow;
     public float maxSpeed;
 
+	public int amountOfLives;
+
     void Start()
     {
+
+		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 		direction = 1;
         moveAllow = true;
 
@@ -58,7 +63,20 @@ public class PlayerController : MonoBehaviour
 		}else if(moveVertical > 0){
 			direction = 1;
 		}
-
-
     }
+
+	//when collider hits player check who is colliding and react
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Enemy"){
+			if(amountOfLives != 0){
+				amountOfLives -= 1;
+				gameController.RemoveLive();
+
+				if(amountOfLives == 0 ){
+					gameController.GameOver();
+				}
+			}
+		}
+	}
+
 }

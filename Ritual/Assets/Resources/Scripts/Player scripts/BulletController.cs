@@ -18,10 +18,8 @@ public class BulletController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
-//		float step = speed * Time.deltaTime;
-//		transform.position = Vector3.MoveTowards(transform.position, target, step);
 		if(direction == 1){
 			rigidBody.velocity = new Vector3(0, speed, 0);
 		}else if(direction == 2){
