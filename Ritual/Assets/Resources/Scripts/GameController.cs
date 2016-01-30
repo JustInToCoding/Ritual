@@ -24,9 +24,11 @@ public class GameController : MonoBehaviour {
 		float height =(2f * cam.orthographicSize)/2;
 		float width = (2f * cam.orthographicSize * cam.aspect)/2;
 
-		var spacing = 0.5f;
+		var spacing = 0f;
 		for(var i=0; i < amountOfLives; i++){
-			Lives.Add(Instantiate(LiveIndicatorPrefab, new Vector3(-width+spacing,height-0.5f,0), Quaternion.identity) as GameObject);
+			var live = Instantiate(LiveIndicatorPrefab, new Vector3(-width+spacing,height-0.5f,0), Quaternion.identity) as GameObject;
+			live.transform.parent = Camera.main.transform;
+			Lives.Add(live);
 			spacing += 0.7f;
 		}
 	
