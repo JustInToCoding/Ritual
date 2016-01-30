@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour {
 	private GameObject player;
 	private Rigidbody2D rb;
 
-	private int health = 40;
+	private float health = 40;
 	private float speed = 0.5f;
 	private float Cooldown;
 	private int projectileSpeed = 4;
@@ -49,6 +49,7 @@ public class EnemyController : MonoBehaviour {
 
 	void Attack() {
 		bool playerInRange = (xDifPlayer > -attackRange && xDifPlayer < attackRange) && (yDifPlayer > -attackRange && yDifPlayer < attackRange);
+		calculateDirection ();
 		if (playerInRange && canAttack) {
 			GameObject attack = Instantiate (projectile, transform.position, Quaternion.identity) as GameObject;
 			BulletController attackController = attack.GetComponent<BulletController> ();
@@ -58,25 +59,35 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
+	void Hit(float damage) {
+		health -= damage;
+		Debug.Log ("Damage!!! "+ health);
+		if (health <= 0) {
+			Destroy (gameObject);
+		}
+	}
+
+	public void collide(GameObject col){
+		if (col.tag == "PlayerBullet") {
+			Hit (col.GetComponent<BulletController>().damage);
+			Destroy (col);
+			//Debug.Log (col.gameObject);
+		}
+		if (col.tag == "EnemeyBullet") {
+			Destroy (col);
+		}
+	}
+
 	void calculateDirection() {
-		//float angle = Vector2.Angle (transform.position, player.transform.position);
-		//Vector3 cross = Vector3.Cross (transform.position, player.transform.position);
 		float angle  = (Mathf.Atan2((transform.position.x - player.transform.position.x), (transform.position.y - player.transform.position.y)) * 180 / Mathf.PI) + 180;
-		//if (cross.z > 0) {
-		//	angle = 360 - angle;
-		//}
-		Debug.Log ("angle: "+ angle);
+
 		if (angle > 45 && angle < 135) {
-			Debug.Log ("4: right");
 			direction = 4; // right!!!
 		}else if (angle > 135 && angle < 225) {
-			Debug.Log ("3: down");
 			direction = 3; // down!!!
 		}else if (angle > 225 && angle < 315) {
-			Debug.Log ("2: left");
 			direction = 2; // left!!!
 		}else if (angle > 315 || angle < 45) {
-			Debug.Log ("1: up");
 			direction = 1; // up
 		}
 	}
