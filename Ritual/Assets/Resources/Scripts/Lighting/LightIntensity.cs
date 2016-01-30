@@ -30,7 +30,7 @@ public class LightIntensity : MonoBehaviour
     void Update()
     {
         currIntensity = light.intensity;
-        if (light.intensity == startIntensity)
+        if (light.intensity <= startIntensity)
         {
             decrease = false;
             increase = true;
