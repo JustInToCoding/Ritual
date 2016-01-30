@@ -963,6 +963,7 @@ MonoBehaviour:
   playerRange: 2
   attackRange: 3
   direction: 0
+  animation: {fileID: 0}
   nextWaypointDistance: 0.02
 --- !u!114 &11421036
 MonoBehaviour:
