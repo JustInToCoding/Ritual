@@ -65,17 +65,28 @@ public class PlayerController : MonoBehaviour
 		}
     }
 
+	void removeLive() {
+		if(amountOfLives != 0){
+			amountOfLives -= 1;
+			gameController.RemoveLive();
+
+			if(amountOfLives == 0 ){
+				gameController.GameOver();
+			}
+		}
+	}
+
 	//when collider hits player check who is colliding and react
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy"){
-			if(amountOfLives != 0){
-				amountOfLives -= 1;
-				gameController.RemoveLive();
+			removeLive ();
+		}
+	}
 
-				if(amountOfLives == 0 ){
-					gameController.GameOver();
-				}
-			}
+	public void hit (GameObject col) {
+		if (col.tag == "EnemyBullet") {
+			removeLive ();
+			Destroy (col);
 		}
 	}
 
