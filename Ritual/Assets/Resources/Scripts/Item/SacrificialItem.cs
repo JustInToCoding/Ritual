@@ -19,7 +19,7 @@ public class SacrificialItem : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            if (HeldItems.heldSacrificialItems < 3)
+            if (HeldItems.heldSacrificialItems < 5)
             {
                 HeldItems.heldSacrificialItems++;
                 Destroy(this.gameObject);

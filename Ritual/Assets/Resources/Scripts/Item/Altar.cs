@@ -4,20 +4,21 @@ using System.Collections;
 public class Altar : MonoBehaviour
 {
     private int itemsNeeded;
-    public int heldItems;
+    public int sacrificedItems;
     private CircleCollider2D cc;
 
     // Use this for initialization
     void Start()
     {
         itemsNeeded = 5;
-        heldItems = 0;
+        sacrificedItems = 0;
         cc = GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(sacrificedItems);
     }
 
     public void StartRitual()
@@ -25,7 +26,8 @@ public class Altar : MonoBehaviour
         // Start the ritual when 3 items are collected at the altar
         // level.SpawnEnemies = true;
         // GameObject Boss = Instantiate (Resources.Load("Resources/Prefabs/Bosses/Boss#1"), transform.position, transform.rotation);
-        // Reset();
+        Reset();
+        Debug.Log("Ritual started");
 
     }
 
@@ -33,12 +35,20 @@ public class Altar : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            heldItems += HeldItems.heldSacrificialItems;
+            sacrificedItems += HeldItems.heldSacrificialItems;
+            HeldItems.Reset();
 
             // Start the particle system and start the ritual
-            if (heldItems >= itemsNeeded)
-                HeldItems.heldSacrificialItems = 0;
+            if (sacrificedItems == itemsNeeded)
+            {
                 StartRitual();
+            }
         }
+    }
+
+    void Reset()
+    {
+        sacrificedItems = 0;
+        HeldItems.Reset();
     }
 }
