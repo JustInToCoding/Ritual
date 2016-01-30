@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Pathfinding;
 
 public class EnemyController : MonoBehaviour {
 	public GameObject projectile;
@@ -10,7 +11,7 @@ public class EnemyController : MonoBehaviour {
 	private Rigidbody2D rb;
 
 	private float health = 40;
-	private float speed = 0.5f;
+	private float speed = 2;
 	private float Cooldown;
 	private int projectileSpeed = 4;
 	private int AttackSpeed = 1;
@@ -20,30 +21,75 @@ public class EnemyController : MonoBehaviour {
 	private float yDifPlayer;
 	private Vector2 target;
 
+	private Seeker seeker;
+	public Path path;
+	public float nextWaypointDistance = 0.02f;
+	private int currentWaypoint = 0;
+
 
 	// Use this for initialization
 	void Start () {
 		direction = 1;
 		player = GameObject.FindGameObjectWithTag("Player");
 		rb = GetComponent<Rigidbody2D> ();
+		seeker = GetComponent<Seeker> ();
+		seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		bool playerInRange = (xDifPlayer > -playerRange && xDifPlayer < playerRange) && (yDifPlayer > -playerRange && yDifPlayer < playerRange);
+		//bool playerInRange = (xDifPlayer > -playerRange && xDifPlayer < playerRange) && (yDifPlayer > -playerRange && yDifPlayer < playerRange);
 
-		target = player.transform.position - transform.position;
+		//target = player.transform.position - transform.position;
+		//xDifPlayer = player.transform.position.x - transform.position.x;
+		//yDifPlayer = player.transform.position.y - transform.position.y;
+		//if (!playerInRange) {
+		//	calculateDirection ();
+		//	rb.velocity = target * speed;
+		//} else {
+		//	rb.velocity = Vector2.zero;
+		//}
+
+
+	}
+
+	public void FixedUpdate () {
+		bool playerInRange = (xDifPlayer > -playerRange && xDifPlayer < playerRange) && (yDifPlayer > -playerRange && yDifPlayer < playerRange);
 		xDifPlayer = player.transform.position.x - transform.position.x;
 		yDifPlayer = player.transform.position.y - transform.position.y;
-		if (!playerInRange) {
-			calculateDirection ();
-			rb.velocity = target * speed;
-		} else {
-			rb.velocity = Vector2.zero;
+
+		if (path == null)
+		{
+			//We have no path to move after yet
+			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+			return;
 		}
 
-		if (Time.time >= Cooldown) {
-			Attack ();
+		if (path.vectorPath.Count - currentWaypoint < 3 && playerInRange) {
+			if (Time.time >= Cooldown) {
+				Attack ();
+			}
+			return;
+		}
+
+		if (currentWaypoint >= path.vectorPath.Count)
+		{
+			Debug.Log( "End Of Path Reached" );
+			return;
+		}
+			
+
+		//Direction to the next waypoint
+		Vector3 dir = ( path.vectorPath[ currentWaypoint ] - transform.position).normalized;
+		dir *= speed * Time.fixedDeltaTime;
+		this.gameObject.transform.Translate( dir );
+
+		//Check if we are close enough to the next waypoint
+		//If we are, proceed to follow the next waypoint
+		if (Vector3.Distance(path.vectorPath[ currentWaypoint ], transform.position ) < nextWaypointDistance)
+		{
+			currentWaypoint++;
+			return;
 		}
 	}
 
@@ -61,7 +107,6 @@ public class EnemyController : MonoBehaviour {
 
 	void Hit(float damage) {
 		health -= damage;
-		Debug.Log ("Damage!!! "+ health);
 		if (health <= 0) {
 			Destroy (gameObject);
 		}
@@ -89,6 +134,17 @@ public class EnemyController : MonoBehaviour {
 			direction = 2; // left!!!
 		}else if (angle > 315 || angle < 45) {
 			direction = 1; // up
+		}
+	}
+
+	public void OnPathComplete ( Path p )
+	{
+		Debug.Log( "Yay, we got a path back. Did it have an error? " + p.error );
+		if (!p.error)
+		{
+			path = p;
+			//Reset the waypoint counter
+			currentWaypoint = 0;
 		}
 	}
 }
