@@ -732,6 +732,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 51755650}
   - 212: {fileID: 51755649}
+  - 61: {fileID: 51755651}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -781,6 +782,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 5
+--- !u!61 &51755651
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51755648}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &53377761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1037,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 80521666}
   - 212: {fileID: 80521665}
+  - 61: {fileID: 80521667}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -1071,6 +1087,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 6
+--- !u!61 &80521667
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80521664}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &82602149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1284,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 103416715}
   - 212: {fileID: 103416714}
+  - 61: {fileID: 103416716}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -1303,6 +1334,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 50
+--- !u!61 &103416716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 103416713}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &105627667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,6 +1357,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 105627669}
   - 212: {fileID: 105627668}
+  - 61: {fileID: 105627670}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -1361,6 +1407,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 60
+--- !u!61 &105627670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105627667}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &118998015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1430,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 118998017}
   - 212: {fileID: 118998016}
+  - 61: {fileID: 118998018}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -1419,6 +1480,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 51
+--- !u!61 &118998018
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 118998015}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &119784026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,6 +1503,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 119784028}
   - 212: {fileID: 119784027}
+  - 61: {fileID: 119784029}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -1477,6 +1553,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 11
+--- !u!61 &119784029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 119784026}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &121675743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1576,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 121675745}
   - 212: {fileID: 121675744}
+  - 61: {fileID: 121675746}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -1535,6 +1626,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 66
+--- !u!61 &121675746
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121675743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &125162352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1707,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 129128443}
   - 212: {fileID: 129128442}
+  - 61: {fileID: 129128444}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -1651,6 +1757,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 73
+--- !u!61 &129128444
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129128441}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &133516796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,6 +2128,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 146724440}
   - 212: {fileID: 146724439}
+  - 61: {fileID: 146724441}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -2057,6 +2178,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 33
+--- !u!61 &146724441
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 146724438}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &148940401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2762,6 +2897,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 199891589}
   - 212: {fileID: 199891588}
+  - 61: {fileID: 199891590}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -2811,6 +2947,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 69
+--- !u!61 &199891590
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199891587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &206694437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,6 +3028,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 217193492}
   - 212: {fileID: 217193491}
+  - 61: {fileID: 217193493}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -2927,6 +3078,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 45
+--- !u!61 &217193493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 217193490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &219132257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3284,6 +3449,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 232912525}
   - 212: {fileID: 232912524}
+  - 61: {fileID: 232912526}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -3333,6 +3499,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 67
+--- !u!61 &232912526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 232912523}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &246814524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3574,6 +3754,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 271773078}
   - 212: {fileID: 271773077}
+  - 61: {fileID: 271773079}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -3623,6 +3804,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 9
+--- !u!61 &271773079
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271773076}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &272439791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3806,6 +4001,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 280285182}
   - 212: {fileID: 280285181}
+  - 61: {fileID: 280285183}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -3855,6 +4051,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 77
+--- !u!61 &280285183
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 280285180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &281192334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3864,6 +4074,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 281192336}
   - 212: {fileID: 281192335}
+  - 61: {fileID: 281192337}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -3913,6 +4124,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 26
+--- !u!61 &281192337
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281192334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &284539315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,6 +4263,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 287117465}
   - 212: {fileID: 287117464}
+  - 61: {fileID: 287117466}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4087,6 +4313,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 13
+--- !u!61 &287117466
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 287117463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &293226561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4096,6 +4336,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 293226563}
   - 212: {fileID: 293226562}
+  - 61: {fileID: 293226564}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4145,6 +4386,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 68
+--- !u!61 &293226564
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293226561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &298452369
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,6 +4525,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 303927032}
   - 212: {fileID: 303927031}
+  - 61: {fileID: 303927033}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -4319,6 +4575,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 104
+--- !u!61 &303927033
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 303927030}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &305724404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4328,6 +4598,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 305724406}
   - 212: {fileID: 305724405}
+  - 61: {fileID: 305724407}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4377,6 +4648,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 81
+--- !u!61 &305724407
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305724404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &311144879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4444,6 +4729,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 313671890}
   - 212: {fileID: 313671889}
+  - 61: {fileID: 313671891}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4493,6 +4779,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 25
+--- !u!61 &313671891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 313671888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &316575012
 GameObject:
   m_ObjectHideFlags: 0
@@ -4734,6 +5034,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 336662561}
   - 212: {fileID: 336662560}
+  - 61: {fileID: 336662562}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4783,6 +5084,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 1
+--- !u!61 &336662562
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 336662559}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &341729902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4850,6 +5165,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 343408510}
   - 212: {fileID: 343408509}
+  - 61: {fileID: 343408511}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -4899,6 +5215,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 17
+--- !u!61 &343408511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343408508}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &347402417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,6 +5528,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 365029736}
   - 212: {fileID: 365029735}
+  - 61: {fileID: 365029737}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -5247,6 +5578,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 72
+--- !u!61 &365029737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365029734}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &369547962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5662,6 +6007,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 383260980}
   - 212: {fileID: 383260979}
+  - 61: {fileID: 383260981}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -5711,6 +6057,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 96
+--- !u!61 &383260981
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383260978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &384457552
 GameObject:
   m_ObjectHideFlags: 0
@@ -5720,6 +6080,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 384457554}
   - 212: {fileID: 384457553}
+  - 61: {fileID: 384457555}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -5769,6 +6130,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 20
+--- !u!61 &384457555
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384457552}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &388675855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5778,6 +6153,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 388675857}
   - 212: {fileID: 388675856}
+  - 61: {fileID: 388675858}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -5827,6 +6203,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 46
+--- !u!61 &388675858
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 388675855}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &395591449
 GameObject:
   m_ObjectHideFlags: 0
@@ -5952,6 +6342,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 410468005}
   - 212: {fileID: 410468004}
+  - 61: {fileID: 410468006}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -6001,6 +6392,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 34
+--- !u!61 &410468006
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 410468003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &410548200
 GameObject:
   m_ObjectHideFlags: 0
@@ -6010,6 +6415,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 410548202}
   - 212: {fileID: 410548201}
+  - 61: {fileID: 410548203}
   m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
@@ -6059,6 +6465,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 52
+--- !u!61 &410548203
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 410548200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.0000038146973, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.6399999, y: 0.6399999}
 --- !u!1 &416420191
 GameObject:
   m_ObjectHideFlags: 0
@@ -6242,6 +6662,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 442486974}
   - 212: {fileID: 442486973}
+  - 61: {fileID: 442486975}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -6291,6 +6712,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 88
+--- !u!61 &442486975
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442486972}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1001 &443524483
 Prefab:
   m_ObjectHideFlags: 0
@@ -6328,7 +6763,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 103552, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
       propertyPath: m_Name
@@ -6345,6 +6780,10 @@ Prefab:
     - target: {fileID: 103552, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097642, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
@@ -6938,6 +7377,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 495532271}
   - 212: {fileID: 495532270}
+  - 61: {fileID: 495532272}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -6987,6 +7427,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 63
+--- !u!61 &495532272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495532269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &499181230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7054,6 +7508,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 500811202}
   - 212: {fileID: 500811201}
+  - 61: {fileID: 500811203}
   m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
@@ -7103,6 +7558,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 31
+--- !u!61 &500811203
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500811200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &501074541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7112,6 +7581,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 501074543}
   - 212: {fileID: 501074542}
+  - 61: {fileID: 501074544}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -7161,6 +7631,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 24
+--- !u!61 &501074544
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 501074541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &504441324
 GameObject:
   m_ObjectHideFlags: 0
@@ -7228,6 +7712,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 506786534}
   - 212: {fileID: 506786533}
+  - 61: {fileID: 506786535}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -7277,6 +7762,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 62
+--- !u!61 &506786535
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 506786532}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &508407601
 GameObject:
   m_ObjectHideFlags: 0
@@ -7402,6 +7901,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 510827309}
   - 212: {fileID: 510827308}
+  - 61: {fileID: 510827310}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -7451,6 +7951,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 70
+--- !u!61 &510827310
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510827307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &512124449
 GameObject:
   m_ObjectHideFlags: 0
@@ -7808,6 +8322,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 534695989}
   - 212: {fileID: 534695988}
+  - 61: {fileID: 534695990}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -7857,6 +8372,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 64
+--- !u!61 &534695990
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534695987}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &540283606
 GameObject:
   m_ObjectHideFlags: 0
@@ -7985,6 +8514,7 @@ GameObject:
   - 92: {fileID: 546959834}
   - 124: {fileID: 546959833}
   - 81: {fileID: 546959832}
+  - 114: {fileID: 546959837}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8054,11 +8584,28 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546959831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.88, y: 0.09, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.28, y: 0.1, z: -10}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
-  m_Father: {fileID: 1208099566}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &546959837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546959831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4420ab929e64673b6c421ac45b6e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxX: 0.95
+  minX: -49
+  maxY: 2.7
+  minY: -30.78
+  smootTimeY: 0
+  smootTimeX: 0
 --- !u!1 &560093551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8706,6 +9253,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 593958030}
   - 212: {fileID: 593958029}
+  - 61: {fileID: 593958031}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -8755,6 +9303,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 49
+--- !u!61 &593958031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593958028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &602383619
 GameObject:
   m_ObjectHideFlags: 0
@@ -8764,6 +9326,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 602383621}
   - 212: {fileID: 602383620}
+  - 61: {fileID: 602383622}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -8813,6 +9376,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 39
+--- !u!61 &602383622
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602383619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &606688630
 GameObject:
   m_ObjectHideFlags: 0
@@ -8822,6 +9399,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 606688632}
   - 212: {fileID: 606688631}
+  - 61: {fileID: 606688633}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -8871,6 +9449,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 32
+--- !u!61 &606688633
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606688630}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &607578670
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,7 +9595,7 @@ Transform:
   - {fileID: 303927032}
   - {fileID: 1894012172}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &608799506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9593,6 +10185,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 654662081}
   - 212: {fileID: 654662080}
+  - 61: {fileID: 654662082}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -9642,6 +10235,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 86
+--- !u!61 &654662082
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654662079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &657080897
 GameObject:
   m_ObjectHideFlags: 0
@@ -9983,6 +10590,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 672278967}
   - 212: {fileID: 672278966}
+  - 61: {fileID: 672278968}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -10032,6 +10640,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 101
+--- !u!61 &672278968
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672278965}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0.00000011920929}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &680313313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10099,6 +10721,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 681717104}
   - 212: {fileID: 681717103}
+  - 61: {fileID: 681717105}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -10148,6 +10771,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 35
+--- !u!61 &681717105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681717102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &693212975
 GameObject:
   m_ObjectHideFlags: 0
@@ -10157,6 +10794,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 693212977}
   - 212: {fileID: 693212976}
+  - 61: {fileID: 693212978}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -10206,6 +10844,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 53
+--- !u!61 &693212978
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 693212975}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000038146973, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &695368048
 GameObject:
   m_ObjectHideFlags: 0
@@ -10621,6 +11273,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 715178542}
   - 212: {fileID: 715178541}
+  - 61: {fileID: 715178543}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -10670,6 +11323,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 87
+--- !u!61 &715178543
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715178540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &715740613
 GameObject:
   m_ObjectHideFlags: 0
@@ -10795,6 +11462,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 732917677}
   - 212: {fileID: 732917676}
+  - 61: {fileID: 732917678}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -10844,6 +11512,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 44
+--- !u!61 &732917678
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732917675}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &733504947
 GameObject:
   m_ObjectHideFlags: 0
@@ -11201,6 +11883,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 744779909}
   - 212: {fileID: 744779908}
+  - 61: {fileID: 744779910}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -11250,6 +11933,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 28
+--- !u!61 &744779910
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744779907}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &747011437
 GameObject:
   m_ObjectHideFlags: 0
@@ -12071,6 +12768,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 816396428}
   - 212: {fileID: 816396427}
+  - 61: {fileID: 816396429}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -12120,6 +12818,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 0
+--- !u!61 &816396429
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816396426}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &818343984
 GameObject:
   m_ObjectHideFlags: 0
@@ -12187,6 +12899,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 827307269}
   - 212: {fileID: 827307268}
+  - 61: {fileID: 827307270}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -12236,6 +12949,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 74
+--- !u!61 &827307270
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 827307267}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &827811071
 GameObject:
   m_ObjectHideFlags: 0
@@ -12593,6 +13320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 842659723}
   - 212: {fileID: 842659722}
+  - 61: {fileID: 842659724}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -12642,6 +13370,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 40
+--- !u!61 &842659724
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 842659721}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &844384771
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,6 +13567,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 854621458}
   - 212: {fileID: 854621457}
+  - 61: {fileID: 854621459}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -12874,6 +13617,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 56
+--- !u!61 &854621459
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854621456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &860004824
 GameObject:
   m_ObjectHideFlags: 0
@@ -13173,6 +13930,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 897247110}
   - 212: {fileID: 897247109}
+  - 61: {fileID: 897247111}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -13222,6 +13980,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 85
+--- !u!61 &897247111
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 897247108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &899129551
 GameObject:
   m_ObjectHideFlags: 0
@@ -13811,6 +14583,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 921913616}
   - 212: {fileID: 921913615}
+  - 61: {fileID: 921913617}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -13860,6 +14633,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 36
+--- !u!61 &921913617
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 921913614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &930063513
 GameObject:
   m_ObjectHideFlags: 0
@@ -13927,6 +14714,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 933616042}
   - 212: {fileID: 933616041}
+  - 61: {fileID: 933616043}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -13976,6 +14764,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 19
+--- !u!61 &933616043
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 933616040}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &941093249
 GameObject:
   m_ObjectHideFlags: 0
@@ -14507,6 +15309,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 985302181}
   - 212: {fileID: 985302180}
+  - 61: {fileID: 985302182}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -14556,6 +15359,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 14
+--- !u!61 &985302182
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985302179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &989756538
 GameObject:
   m_ObjectHideFlags: 0
@@ -14565,6 +15382,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 989756540}
   - 212: {fileID: 989756539}
+  - 61: {fileID: 989756541}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -14614,6 +15432,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 2
+--- !u!61 &989756541
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989756538}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1006707013
 GameObject:
   m_ObjectHideFlags: 0
@@ -14739,6 +15571,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1008057160}
   - 212: {fileID: 1008057159}
+  - 61: {fileID: 1008057161}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -14788,6 +15621,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 43
+--- !u!61 &1008057161
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1008057158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1009664175
 GameObject:
   m_ObjectHideFlags: 0
@@ -14913,6 +15760,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1014653696}
   - 212: {fileID: 1014653695}
+  - 61: {fileID: 1014653697}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -14962,6 +15810,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 30
+--- !u!61 &1014653697
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014653694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1025569107
 GameObject:
   m_ObjectHideFlags: 0
@@ -15087,6 +15949,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1041463191}
   - 212: {fileID: 1041463190}
+  - 61: {fileID: 1041463192}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -15136,6 +15999,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 92
+--- !u!61 &1041463192
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1041463189}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1049062934
 GameObject:
   m_ObjectHideFlags: 0
@@ -15145,6 +16022,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1049062936}
   - 212: {fileID: 1049062935}
+  - 61: {fileID: 1049062937}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -15194,6 +16072,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 103
+--- !u!61 &1049062937
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049062934}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1049704832
 GameObject:
   m_ObjectHideFlags: 0
@@ -15609,6 +16501,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1070970638}
   - 212: {fileID: 1070970637}
+  - 61: {fileID: 1070970639}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -15658,6 +16551,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 89
+--- !u!61 &1070970639
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1070970636}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1075598554
 GameObject:
   m_ObjectHideFlags: 0
@@ -16073,6 +16980,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1103809782}
   - 212: {fileID: 1103809781}
+  - 61: {fileID: 1103809783}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -16122,6 +17030,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 47
+--- !u!61 &1103809783
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103809780}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1111409284
 GameObject:
   m_ObjectHideFlags: 0
@@ -16247,6 +17169,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1116213059}
   - 212: {fileID: 1116213058}
+  - 61: {fileID: 1116213060}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -16296,6 +17219,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 29
+--- !u!61 &1116213060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116213057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1117589994
 GameObject:
   m_ObjectHideFlags: 0
@@ -17059,6 +17996,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1158048757}
   - 212: {fileID: 1158048756}
+  - 61: {fileID: 1158048758}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -17108,6 +18046,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 78
+--- !u!61 &1158048758
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158048755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1160501403
 GameObject:
   m_ObjectHideFlags: 0
@@ -17581,6 +18533,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1205864449}
   - 212: {fileID: 1205864448}
+  - 61: {fileID: 1205864450}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -17630,10 +18583,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 75
---- !u!4 &1208099566 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 408822, guid: 7dbdec06eef5c4628a821e2548263634, type: 2}
-  m_PrefabInternal: {fileID: 443524483}
+--- !u!61 &1205864450
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205864447}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1208803946
 GameObject:
   m_ObjectHideFlags: 0
@@ -18049,6 +19012,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1231924787}
   - 212: {fileID: 1231924786}
+  - 61: {fileID: 1231924788}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -18098,6 +19062,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 4
+--- !u!61 &1231924788
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231924785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1232272728
 GameObject:
   m_ObjectHideFlags: 0
@@ -18107,6 +19085,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1232272730}
   - 212: {fileID: 1232272729}
+  - 61: {fileID: 1232272731}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -18156,6 +19135,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 15
+--- !u!61 &1232272731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232272728}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1240512474
 GameObject:
   m_ObjectHideFlags: 0
@@ -18339,6 +19332,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1243518407}
   - 212: {fileID: 1243518406}
+  - 61: {fileID: 1243518408}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -18388,6 +19382,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 98
+--- !u!61 &1243518408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243518405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1243687881
 GameObject:
   m_ObjectHideFlags: 0
@@ -18455,6 +19463,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1248275344}
   - 212: {fileID: 1248275343}
+  - 61: {fileID: 1248275345}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -18504,6 +19513,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 18
+--- !u!61 &1248275345
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248275342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1255170359
 GameObject:
   m_ObjectHideFlags: 0
@@ -18629,6 +19652,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1259039323}
   - 212: {fileID: 1259039322}
+  - 61: {fileID: 1259039324}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -18678,6 +19702,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 37
+--- !u!61 &1259039324
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1259039321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1264599311
 GameObject:
   m_ObjectHideFlags: 0
@@ -19905,6 +20943,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1350764155}
   - 212: {fileID: 1350764154}
+  - 61: {fileID: 1350764156}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -19954,6 +20993,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 16
+--- !u!61 &1350764156
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350764153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1360423140
 GameObject:
   m_ObjectHideFlags: 0
@@ -20195,6 +21248,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1371802537}
   - 212: {fileID: 1371802536}
+  - 61: {fileID: 1371802538}
   m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
@@ -20244,6 +21298,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 84
+--- !u!61 &1371802538
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371802535}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &1374804506
 GameObject:
   m_ObjectHideFlags: 0
@@ -20311,6 +21379,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1389481577}
   - 212: {fileID: 1389481576}
+  - 61: {fileID: 1389481578}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -20360,6 +21429,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 59
+--- !u!61 &1389481578
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1389481575}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1390005214
 GameObject:
   m_ObjectHideFlags: 0
@@ -20369,6 +21452,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1390005216}
   - 212: {fileID: 1390005215}
+  - 61: {fileID: 1390005217}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -20418,6 +21502,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 71
+--- !u!61 &1390005217
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1390005214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1408519015
 GameObject:
   m_ObjectHideFlags: 0
@@ -20427,6 +21525,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1408519017}
   - 212: {fileID: 1408519016}
+  - 61: {fileID: 1408519018}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -20476,6 +21575,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 99
+--- !u!61 &1408519018
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1408519015}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1408785879
 GameObject:
   m_ObjectHideFlags: 0
@@ -20907,7 +22020,7 @@ Transform:
   - {fileID: 1725563910}
   - {fileID: 1931892747}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &1414042807
 GameObject:
   m_ObjectHideFlags: 0
@@ -21207,6 +22320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1451649153}
   - 212: {fileID: 1451649152}
+  - 61: {fileID: 1451649154}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -21256,6 +22370,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 100
+--- !u!61 &1451649154
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451649151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1454116054
 GameObject:
   m_ObjectHideFlags: 0
@@ -21265,6 +22393,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1454116056}
   - 212: {fileID: 1454116055}
+  - 61: {fileID: 1454116057}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -21314,6 +22443,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 79
+--- !u!61 &1454116057
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454116054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1459773851
 GameObject:
   m_ObjectHideFlags: 0
@@ -21729,6 +22872,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1482374378}
   - 212: {fileID: 1482374377}
+  - 61: {fileID: 1482374379}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -21778,6 +22922,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 54
+--- !u!61 &1482374379
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1482374376}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1482494804
 GameObject:
   m_ObjectHideFlags: 0
@@ -22077,6 +23235,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1502135911}
   - 212: {fileID: 1502135910}
+  - 61: {fileID: 1502135912}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -22126,6 +23285,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 94
+--- !u!61 &1502135912
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502135909}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1508207619
 GameObject:
   m_ObjectHideFlags: 0
@@ -22135,6 +23308,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1508207621}
   - 212: {fileID: 1508207620}
+  - 61: {fileID: 1508207622}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -22184,6 +23358,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 12
+--- !u!61 &1508207622
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508207619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1513710802
 GameObject:
   m_ObjectHideFlags: 0
@@ -22367,6 +23555,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1528646770}
   - 212: {fileID: 1528646769}
+  - 61: {fileID: 1528646771}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -22416,6 +23605,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 3
+--- !u!61 &1528646771
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528646768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1531409964
 GameObject:
   m_ObjectHideFlags: 0
@@ -22773,6 +23976,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1545970616}
   - 212: {fileID: 1545970615}
+  - 61: {fileID: 1545970617}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -22822,6 +24026,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 65
+--- !u!61 &1545970617
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545970614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1546545933
 GameObject:
   m_ObjectHideFlags: 0
@@ -23295,6 +24513,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1616389853}
   - 212: {fileID: 1616389852}
+  - 61: {fileID: 1616389854}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -23344,6 +24563,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 23
+--- !u!61 &1616389854
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1616389851}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1618334654
 GameObject:
   m_ObjectHideFlags: 0
@@ -23701,6 +24934,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1648041556}
   - 212: {fileID: 1648041555}
+  - 61: {fileID: 1648041557}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -23750,6 +24984,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 41
+--- !u!61 &1648041557
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648041554}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1652369141
 GameObject:
   m_ObjectHideFlags: 0
@@ -23933,6 +25181,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1657085671}
   - 212: {fileID: 1657085670}
+  - 61: {fileID: 1657085672}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -23982,6 +25231,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 8
+--- !u!61 &1657085672
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657085669}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1657608045
 GameObject:
   m_ObjectHideFlags: 0
@@ -24107,6 +25370,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1674593065}
   - 212: {fileID: 1674593064}
+  - 61: {fileID: 1674593066}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -24156,6 +25420,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 80
+--- !u!61 &1674593066
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674593063}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1680047629
 GameObject:
   m_ObjectHideFlags: 0
@@ -24397,6 +25675,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1696033599}
   - 212: {fileID: 1696033598}
+  - 61: {fileID: 1696033600}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -24446,6 +25725,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 21
+--- !u!61 &1696033600
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696033597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1696797577
 GameObject:
   m_ObjectHideFlags: 0
@@ -24455,6 +25748,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1696797579}
   - 212: {fileID: 1696797578}
+  - 61: {fileID: 1696797580}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -24504,6 +25798,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 22
+--- !u!61 &1696797580
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1696797577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1701138823
 GameObject:
   m_ObjectHideFlags: 0
@@ -24919,6 +26227,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1728501759}
   - 212: {fileID: 1728501758}
+  - 61: {fileID: 1728501760}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -24968,6 +26277,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 95
+--- !u!61 &1728501760
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1728501757}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1734790033
 GameObject:
   m_ObjectHideFlags: 0
@@ -25209,6 +26532,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1750397478}
   - 212: {fileID: 1750397477}
+  - 61: {fileID: 1750397479}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -25258,6 +26582,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 93
+--- !u!61 &1750397479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750397476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1753490663
 GameObject:
   m_ObjectHideFlags: 0
@@ -25325,6 +26663,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1767031171}
   - 212: {fileID: 1767031170}
+  - 61: {fileID: 1767031172}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -25374,6 +26713,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 10
+--- !u!61 &1767031172
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767031169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1767326123
 GameObject:
   m_ObjectHideFlags: 0
@@ -25441,6 +26794,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1784898329}
   - 212: {fileID: 1784898328}
+  - 61: {fileID: 1784898330}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -25490,6 +26844,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 57
+--- !u!61 &1784898330
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1784898327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1795744779
 GameObject:
   m_ObjectHideFlags: 0
@@ -25615,6 +26983,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1800123661}
   - 212: {fileID: 1800123660}
+  - 61: {fileID: 1800123662}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -25664,6 +27033,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 58
+--- !u!61 &1800123662
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1800123659}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1806130799
 GameObject:
   m_ObjectHideFlags: 0
@@ -26253,6 +27636,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1854816225}
   - 212: {fileID: 1854816224}
+  - 61: {fileID: 1854816226}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -26302,6 +27686,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 55
+--- !u!61 &1854816226
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854816223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1859394462
 GameObject:
   m_ObjectHideFlags: 0
@@ -26543,6 +27941,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1870390935}
   - 212: {fileID: 1870390934}
+  - 61: {fileID: 1870390936}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -26592,6 +27991,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 91
+--- !u!61 &1870390936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870390933}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1870514823
 GameObject:
   m_ObjectHideFlags: 0
@@ -26601,6 +28014,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1870514825}
   - 212: {fileID: 1870514824}
+  - 61: {fileID: 1870514826}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -26650,6 +28064,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 61
+--- !u!61 &1870514826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870514823}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1873837833
 GameObject:
   m_ObjectHideFlags: 0
@@ -26775,6 +28203,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1885322995}
   - 212: {fileID: 1885322994}
+  - 61: {fileID: 1885322996}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -26824,6 +28253,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 90
+--- !u!61 &1885322996
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1885322993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1886795039
 GameObject:
   m_ObjectHideFlags: 0
@@ -26891,6 +28334,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1889301670}
   - 212: {fileID: 1889301669}
+  - 61: {fileID: 1889301671}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -26940,6 +28384,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 82
+--- !u!61 &1889301671
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889301668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1889415203
 GameObject:
   m_ObjectHideFlags: 0
@@ -27065,6 +28523,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1894012172}
   - 212: {fileID: 1894012171}
+  - 61: {fileID: 1894012173}
   m_Layer: 9
   m_Name: Floor hoeken_0
   m_TagString: Untagged
@@ -27114,6 +28573,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 105
+--- !u!61 &1894012173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1894012170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000014305115, y: -0.00000047683716}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
 --- !u!1 &1897608489
 GameObject:
   m_ObjectHideFlags: 0
@@ -27181,6 +28654,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1897689016}
   - 212: {fileID: 1897689015}
+  - 61: {fileID: 1897689017}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -27230,6 +28704,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 76
+--- !u!61 &1897689017
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897689014}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &1899149056
 GameObject:
   m_ObjectHideFlags: 0
@@ -27355,6 +28843,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1903698860}
   - 212: {fileID: 1903698859}
+  - 61: {fileID: 1903698861}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -27404,6 +28893,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 38
+--- !u!61 &1903698861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1903698858}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1904048103
 GameObject:
   m_ObjectHideFlags: 0
@@ -27761,6 +29264,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1937265332}
   - 212: {fileID: 1937265331}
+  - 61: {fileID: 1937265333}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -27810,6 +29314,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 97
+--- !u!61 &1937265333
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937265330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &1943770102
 GameObject:
   m_ObjectHideFlags: 0
@@ -28399,6 +29917,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2021384257}
   - 212: {fileID: 2021384256}
+  - 61: {fileID: 2021384258}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -28448,6 +29967,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 48
+--- !u!61 &2021384258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2021384255}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2021776460
 GameObject:
   m_ObjectHideFlags: 0
@@ -28777,7 +30310,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &2056024043
 GameObject:
   m_ObjectHideFlags: 0
@@ -28787,6 +30320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2056024045}
   - 212: {fileID: 2056024044}
+  - 61: {fileID: 2056024046}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -28836,6 +30370,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 102
+--- !u!61 &2056024046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056024043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.000000059604645}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2056487034
 GameObject:
   m_ObjectHideFlags: 0
@@ -29193,6 +30741,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2079142391}
   - 212: {fileID: 2079142390}
+  - 61: {fileID: 2079142392}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -29242,6 +30791,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 7
+--- !u!61 &2079142392
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079142389}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2079696132
 GameObject:
   m_ObjectHideFlags: 0
@@ -29541,6 +31104,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2102989331}
   - 212: {fileID: 2102989330}
+  - 61: {fileID: 2102989332}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -29590,6 +31154,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 83
+--- !u!61 &2102989332
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102989329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2106010719
 GameObject:
   m_ObjectHideFlags: 0
@@ -29773,6 +31351,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2117439244}
   - 212: {fileID: 2117439243}
+  - 61: {fileID: 2117439245}
   m_Layer: 9
   m_Name: Floor vertical_0
   m_TagString: Untagged
@@ -29822,6 +31401,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 42
+--- !u!61 &2117439245
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2117439242}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 1.92}
 --- !u!1 &2117674262
 GameObject:
   m_ObjectHideFlags: 0
@@ -30179,6 +31772,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2134923020}
   - 212: {fileID: 2134923019}
+  - 61: {fileID: 2134923021}
   m_Layer: 9
   m_Name: Floor Total_0
   m_TagString: Untagged
@@ -30228,6 +31822,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 607578671}
   m_RootOrder: 27
+--- !u!61 &2134923021
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134923018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.42}
+  serializedVersion: 2
+  m_Size: {x: 1.92, y: 0.64}
 --- !u!1 &2136318970
 GameObject:
   m_ObjectHideFlags: 0
