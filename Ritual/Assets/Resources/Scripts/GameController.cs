@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour {
 		for(var i=0; i < amountOfLives; i++){
 			var live = Instantiate(LiveIndicatorPrefab, new Vector3(-width+spacing,height-0.5f,0), Quaternion.identity) as GameObject;
 			live.transform.parent = Camera.main.transform;
+			live.GetComponent<SpriteRenderer>().sortingLayerName = "Foreground";
 			Lives.Add(live);
 			spacing += 0.7f;
 		}
