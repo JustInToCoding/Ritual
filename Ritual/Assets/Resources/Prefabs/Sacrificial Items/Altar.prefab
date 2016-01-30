@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.08, y: 1.46, z: -5.96}
+  m_LocalPosition: {x: -23.21, y: -14.45, z: -1.14}
   m_LocalScale: {x: 1.7318208, y: 1.7318202, z: 1.7318202}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,9 +43,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
-  m_Radius: 0.455
+  m_Radius: 0.25925553
 --- !u!114 &11401052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57,7 +57,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d7bf990573eb90499a1fe2442801ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heldItems: 0
+  sacrificedItems: 0
+  particleFX: {fileID: 171446, guid: c7370f16afa5dd24a9cd5c948aad137c, type: 2}
 --- !u!198 &19853166
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1581,7 +1582,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 367186249
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -1622,7 +1623,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 367186249
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 54b9952e583a0d845a744e88e7b628fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1638,6 +1639,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: 515545925
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
