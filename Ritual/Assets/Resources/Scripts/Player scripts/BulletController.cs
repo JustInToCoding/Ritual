@@ -5,6 +5,7 @@ public class BulletController : MonoBehaviour {
 
 	public float direction;
 	public float speed;
+	public float damage;
 	public Animator anim;
 	private Rigidbody2D rigidBody;
 
@@ -41,5 +42,14 @@ public class BulletController : MonoBehaviour {
 	IEnumerator removeObject() {
 		yield return new WaitForSeconds(0.6f); //this will wait 1 second
 		Destroy(gameObject);
+	}
+
+	void OnTriggerEnter2D (Collider2D other) {
+		if (other.gameObject.tag == "Enemy") {
+			other.gameObject.GetComponent<EnemyController> ().collide (this.gameObject);
+		}
+		if (other.gameObject.tag == "Player") {
+			other.gameObject.GetComponent<PlayerController> ().hit (this.gameObject);
+		}
 	}
 }

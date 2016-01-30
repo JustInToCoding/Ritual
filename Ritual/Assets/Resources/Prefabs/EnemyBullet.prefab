@@ -13,8 +13,8 @@ GameObject:
   - 50: {fileID: 5025446}
   - 58: {fileID: 5861384}
   m_Layer: 0
-  m_Name: Bullet
-  m_TagString: PlayerBullet
+  m_Name: EnemyBullet
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,7 +144,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: PlayerBullet
+      value: EnemyBullet
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: damage
