@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 	public float direction; //1=down 2=left 3=up 4=right
     private Rigidbody2D playerRigidbody;
 	private GameController gameController;
+	private Animator animator;
 
     public static bool moveAllow;
     public float maxSpeed;
@@ -16,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-
+		animator = GetComponent<Animator> ();
 		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 		direction = 1;
         moveAllow = true;
@@ -52,17 +53,29 @@ public class PlayerController : MonoBehaviour
             playerRigidbody.velocity = new Vector2(0, 0);
         }
 
-		// only triggered when moving ! :< 
+		Vector3 temp = this.transform.localScale;
 
-		if(moveHorizontal < 0){
+
+		if (moveHorizontal < 0) {
 			direction = 2;
-		}else if(moveHorizontal > 0){
+			temp.x = -1;
+			animator.SetBool ("isWalking", true);
+		} else if (moveHorizontal > 0) {
 			direction = 4;
-		}else if(moveVertical < 0){
+			temp.x = 1;
+			animator.SetBool ("isWalking", true);
+
+		} else if (moveVertical < 0) {
 			direction = 3;
-		}else if(moveVertical > 0){
+			animator.SetBool ("isWalking", true);
+		} else if (moveVertical > 0) {
 			direction = 1;
+			animator.SetBool ("isWalking", true);
+		} else {
+			animator.SetBool ("isWalking", false);
 		}
+
+		this.transform.localScale = temp;
     }
 
 	void removeLive() {
