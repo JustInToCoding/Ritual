@@ -7,6 +7,7 @@ TagManager:
   - EnemyBullet
   - PlayerBullet
   - Enemy
+  - CameraBounds
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Wall
   - 
   - 
   - 
