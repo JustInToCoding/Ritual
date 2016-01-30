@@ -26,6 +26,7 @@ public class Altar : MonoBehaviour
         // level.SpawnEnemies = true;
         // GameObject Boss = Instantiate (Resources.Load("Resources/Prefabs/Bosses/Boss#1"), transform.position, transform.rotation);
         // Reset();
+        Debug.Log("Ritual started");
 
     }
 
