@@ -19,8 +19,11 @@ public class SacrificialItem : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            player.GetComponent<HeldItems>().heldSacrificialItems++;
-            Destroy(this.gameObject);
+            if (HeldItems.heldSacrificialItems < 3)
+            {
+                HeldItems.heldSacrificialItems++;
+                Destroy(this.gameObject);
+            }
         }
     }
 }
