@@ -44,6 +44,7 @@ public class EnemyController : MonoBehaviour {
 		xDifPlayer = player.transform.position.x - transform.position.x;
 		yDifPlayer = player.transform.position.y - transform.position.y;
 		walking = false;
+		calculateDirection ();
 		Animate ();
 		if (path == null)
 		{
