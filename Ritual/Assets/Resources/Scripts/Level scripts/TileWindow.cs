@@ -215,7 +215,7 @@ public class TileWindow : EditorWindow
 		}
 	}
 
-	[CustomEditor(typeof(GameObject))]
+	//[CustomEditor(typeof(GameObject))]
 	public class SceneGUITest : Editor
 	{
 		[DrawGizmo(GizmoType.NotInSelectionHierarchy)]
