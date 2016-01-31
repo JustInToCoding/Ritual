@@ -130,7 +130,7 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void Animate () {
+	protected void Animate () {
 		Vector3 temp = this.transform.localScale;
 
 		if (walking) {

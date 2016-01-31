@@ -17,7 +17,10 @@ public class EnemyBoss : EnemyController {
 
 	// Use this for initialization
 	public override void Start () {
-		base.Start ();
+		//base.Start ();
+		direction = 1;
+		speed = 1;
+		player = GameObject.FindGameObjectWithTag("Player");
 		canAttack = false;
 		startLocation = transform.position;
 		StartCoroutine (AttackTimer(Random.Range(5f, 7f)));
