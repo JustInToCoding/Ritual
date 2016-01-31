@@ -158,9 +158,4 @@ public class EnemyBoss : EnemyController {
 		yield return new WaitForSeconds (seconds);
 		canMove = true;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-
-	}
 }

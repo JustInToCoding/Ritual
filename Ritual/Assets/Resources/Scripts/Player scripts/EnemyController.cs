@@ -4,7 +4,8 @@ using Pathfinding;
 
 public class EnemyController : MonoBehaviour {
 	public GameObject projectile;
-	public float playerRange;
+	public float playerAttackRange;
+	public float playerSearchRange = 3000f;
 	public float attackRange;
 	public float direction;
 	public Animator animation;
@@ -16,6 +17,7 @@ public class EnemyController : MonoBehaviour {
 	protected int AttackSpeed = 1;
 	protected bool canAttack = true;
 	bool walking = false;
+	float seperation = 1f;
 
 	protected float xDifPlayer;
 	protected float yDifPlayer;
@@ -33,16 +35,19 @@ public class EnemyController : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
 		animation = GetComponent<Animator> ();
 		seeker = GetComponent<Seeker> ();
-		seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 	}
 
 	public void FixedUpdate () {
-		bool playerInRange = (xDifPlayer > -playerRange && xDifPlayer < playerRange) && (yDifPlayer > -playerRange && yDifPlayer < playerRange);
+		bool playerInRange = (xDifPlayer > - playerAttackRange && xDifPlayer < playerAttackRange) && (yDifPlayer > -playerAttackRange && yDifPlayer < playerAttackRange);
 		xDifPlayer = player.transform.position.x - transform.position.x;
 		yDifPlayer = player.transform.position.y - transform.position.y;
 		walking = false;
 		calculateDirection ();
 		Animate ();
+		bool playerFound = Vector3.Distance (transform.position, player.transform.position) < playerSearchRange;
+		if (playerFound && path == null) {
+			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+		}
 		if (path == null)
 		{
 			//We have no path to move after yet
@@ -71,6 +76,7 @@ public class EnemyController : MonoBehaviour {
 
 		//Direction to the next waypoint
 		Vector3 dir = ( path.vectorPath[ currentWaypoint ] - transform.position).normalized;
+		dir = addSeperation (dir);
 		dir *= speed * Time.fixedDeltaTime;
 		this.gameObject.transform.Translate( dir );
 		walking = true;
@@ -82,6 +88,16 @@ public class EnemyController : MonoBehaviour {
 			currentWaypoint++;
 			return;
 		}
+	}
+
+	Vector3 addSeperation (Vector3 dir) {
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enemy");
+		for (int i = 0; i < enemies.Length; i++) {
+			if (Vector3.Distance(enemies[i].transform.position, transform.position) < seperation) {
+				dir += transform.position - enemies[i].transform.position;
+			}
+		}
+		return dir;
 	}
 
 	public virtual void Attack() {
