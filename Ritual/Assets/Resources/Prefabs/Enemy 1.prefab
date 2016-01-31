@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f9da75301a6b4e80a4d7a577536f1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 173846, guid: 87c531c4abf414c07a9a76a4e71373c7, type: 2}
+  projectile: {fileID: 113614, guid: 103c2dd6f1c0ef24997ac7e8f85d2cf9, type: 2}
   playerRange: 2
   attackRange: 3
   direction: 0
@@ -1655,6 +1655,10 @@ Prefab:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 113614, guid: 103c2dd6f1c0ef24997ac7e8f85d2cf9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 147854}

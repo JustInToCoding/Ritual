@@ -61,8 +61,10 @@ public class Altar : MonoBehaviour
 
     public IEnumerator deleteFX(GameObject Go)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         Destroy(Go.gameObject);
+        Destroy(GameObject.Find("Pentagram"));
+        Destroy(this.gameObject);
 
     }
 }
