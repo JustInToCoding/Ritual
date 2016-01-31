@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour {
 	public float playerRange;
 	public float attackRange;
 	public float direction;
+    public AudioClip enemyHit, enemyDeath, enemyGrowl, enemyShoot;
 	public Animator animation;
 	protected GameObject player;
 
@@ -17,9 +18,11 @@ public class EnemyController : MonoBehaviour {
 	protected bool canAttack = true;
 	bool walking = false;
 
+    private AudioSource au_s;
 	protected float xDifPlayer;
 	protected float yDifPlayer;
 	Vector2 target;
+    private bool canPlayGrowl;
 
 	Seeker seeker;
 	public Path path;
@@ -30,9 +33,11 @@ public class EnemyController : MonoBehaviour {
 	// Use this for initialization
 	public virtual void Start () {
 		direction = 1;
+        au_s = GetComponent<AudioSource>();
 		player = GameObject.FindGameObjectWithTag("Player");
 		animation = GetComponent<Animator> ();
 		seeker = GetComponent<Seeker> ();
+        canPlayGrowl = true;
 		seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 	}
 
@@ -88,6 +93,7 @@ public class EnemyController : MonoBehaviour {
 		bool playerInRange = (xDifPlayer > -attackRange && xDifPlayer < attackRange) && (yDifPlayer > -attackRange && yDifPlayer < attackRange);
 		calculateDirection ();
 		if (playerInRange && canAttack) {
+            au_s.PlayOneShot(enemyShoot, 0.03f);
 			animation.SetBool ("isShooting", true);
 			Vector3 bulletStartLocation = transform.position;
 			bulletStartLocation.y += 0.32f;
@@ -107,6 +113,8 @@ public class EnemyController : MonoBehaviour {
 
 	public void collide(GameObject col){
 		if (col.tag == "PlayerBullet") {
+            au_s.volume = 20;
+            au_s.PlayOneShot(enemyHit, 0.3f);
 			Hit (col.GetComponent<BulletController>().damage);
 			Destroy (col);
 			//Debug.Log (col.gameObject);
