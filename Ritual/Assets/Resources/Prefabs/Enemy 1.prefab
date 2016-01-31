@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 446288}
   - 212: {fileID: 21274844}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_thigh_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 457588}
   - 212: {fileID: 21299824}
   - 114: {fileID: 11476798}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_leg_idle_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - 4: {fileID: 461436}
   - 212: {fileID: 21292630}
   - 114: {fileID: 11474372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_arm_idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 429494}
   - 212: {fileID: 21250608}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_arm_idle_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - 4: {fileID: 449606}
   - 212: {fileID: 21223224}
   - 114: {fileID: 11490592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_head_idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 418416}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489206}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   - 4: {fileID: 458620}
   - 212: {fileID: 21295436}
   - 114: {fileID: 11464098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_foot_walk_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 451454}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 488880}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_forarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - 4: {fileID: 421406}
   - 212: {fileID: 21297808}
   - 114: {fileID: 11496172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_foot_idle_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_shin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 416614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_forarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - 4: {fileID: 407652}
   - 212: {fileID: 21282338}
   - 114: {fileID: 11475854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_torso_idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 410846}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - 61: {fileID: 6149220}
   - 114: {fileID: 11418342}
   - 114: {fileID: 11425400}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   - 4: {fileID: 430856}
   - 212: {fileID: 21218032}
   - 114: {fileID: 11458482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_pelvis_idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - 4: {fileID: 414502}
   - 212: {fileID: 21247830}
   - 114: {fileID: 11451762}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_thigh_idle_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 458860}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 465460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - 4: {fileID: 412192}
   - 212: {fileID: 21230344}
   - 114: {fileID: 11434300}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_hand_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 466348}
   - 212: {fileID: 21225786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_leg_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 432080}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 446296}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   - 4: {fileID: 404472}
   - 212: {fileID: 21258042}
   - 114: {fileID: 11482172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_forearm_walk_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 444238}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: back_shin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   - 4: {fileID: 497478}
   - 212: {fileID: 21299356}
   - 114: {fileID: 11446654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_hand_idle_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   - 4: {fileID: 436776}
   - 212: {fileID: 21280882}
   - 114: {fileID: 11421036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: p_forearm_idle_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 412496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1650,7 +1650,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 147854}
