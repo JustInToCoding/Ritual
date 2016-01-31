@@ -18,8 +18,10 @@ public class EnemyBoss : EnemyController {
 	// Use this for initialization
 	public override void Start () {
 		//base.Start ();
+		animation = GetComponent<Animator> ();
 		direction = 1;
 		speed = 1;
+		spriteSize = 0.5f;
 		player = GameObject.FindGameObjectWithTag("Player");
 		canAttack = false;
 		startLocation = transform.position;
@@ -28,10 +30,12 @@ public class EnemyBoss : EnemyController {
 
 	public void FixedUpdate () {
 		calculateDirection ();
+		walking = false;
 		Move ();
 		if (canAttack) {
 			Attack ();
 		}
+		Animate ();
 
 	}
 
@@ -44,6 +48,7 @@ public class EnemyBoss : EnemyController {
 		float step = speed * Time.deltaTime;
 		Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D> ();
 		rb.transform.position = Vector3.MoveTowards (transform.position, new Vector3(destinationX, destinationY, 0), step);
+		walking = true;
 		canMove = false;
 		//todo: normal movement..
 	}
@@ -75,7 +80,8 @@ public class EnemyBoss : EnemyController {
 	}
 
 	void stopWalking() {
-		gameObject.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 0); 
+		gameObject.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 0);
+		walking = false;
 	}
 
 	void NormalAttack () {
