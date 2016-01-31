@@ -18,7 +18,10 @@ public class GameController : MonoBehaviour {
 	void Start () {
 		Lives = new List<GameObject>();
 		playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-		var amountOfLives = playerController.amountOfLives;
+		int amountOfLives = 0;
+		if(playerController!=null){
+			amountOfLives = playerController.amountOfLives;
+		}
 
 		Camera cam = Camera.main;
 		float height =(2f * cam.orthographicSize)/2;
