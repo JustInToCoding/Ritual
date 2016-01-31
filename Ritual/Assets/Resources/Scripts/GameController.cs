@@ -46,6 +46,9 @@ public class GameController : MonoBehaviour {
 			HeldItemsHold = HeldItems.heldSacrificialItems;
 			HeldItemsText.text = HeldItemsHold+" of "+(5 - Altar.sacrificedItems)+" Remaining Items";
 		}
+		if(Altar.sacrificedItems == 5){
+			HeldItemsText.text = "All Items Collected";
+		}
 	}
 		
 	//removes one live from ui

@@ -29,7 +29,9 @@ public class Altar : MonoBehaviour
     {
         // Start the ritual when 3 items are collected at the altar
         // level.SpawnEnemies = true;
-        Reset();
+
+		//Reset enabled for gamecontroller interface statusItems picked
+//        Reset();
         GameObject Go = Instantiate(particleFX, this.transform.position, Quaternion.identity) as GameObject;
         StartCoroutine(deleteFX(Go));
 
