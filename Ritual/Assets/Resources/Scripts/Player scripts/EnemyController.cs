@@ -55,6 +55,8 @@ public class EnemyController : MonoBehaviour {
 				Attack ();
 			}
 			return;
+		}else{
+			animation.SetBool ("isShooting", false);
 		}
 
 		if (currentWaypoint >= path.vectorPath.Count)
@@ -86,10 +88,12 @@ public class EnemyController : MonoBehaviour {
 		bool playerInRange = (xDifPlayer > -attackRange && xDifPlayer < attackRange) && (yDifPlayer > -attackRange && yDifPlayer < attackRange);
 		calculateDirection ();
 		if (playerInRange && canAttack) {
-			GameObject attack = Instantiate (projectile, transform.position, Quaternion.identity) as GameObject;
+			animation.SetBool ("isShooting", true);
+			Vector3 bulletStartLocation = transform.position;
+			bulletStartLocation.y += 0.32f;
+			GameObject attack = Instantiate (projectile, bulletStartLocation, Quaternion.identity) as GameObject;
 			BulletController attackController = attack.GetComponent<BulletController> ();
 			attackController.direction = direction;
-			attack.transform.position = transform.position;
 			Cooldown = Time.time + AttackSpeed;
 		}
 	}

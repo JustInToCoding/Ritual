@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 0
-  speed: 10
+  speed: 4
   damage: 10
   anim: {fileID: 0}
 --- !u!212 &21244208
@@ -116,7 +116,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: speed
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_UseAutoMass

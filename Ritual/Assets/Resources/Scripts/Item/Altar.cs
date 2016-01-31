@@ -6,6 +6,7 @@ public class Altar : MonoBehaviour
     private int itemsNeeded;
     public int sacrificedItems;
     private CircleCollider2D cc;
+    public GameObject particleFX;
 
     // Use this for initialization
     void Start()
@@ -18,7 +19,7 @@ public class Altar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(sacrificedItems);
+        Debug.Log(HeldItems.heldSacrificialItems);
     }
 
     public void StartRitual()
@@ -27,7 +28,9 @@ public class Altar : MonoBehaviour
         // level.SpawnEnemies = true;
         // GameObject Boss = Instantiate (Resources.Load("Resources/Prefabs/Bosses/Boss#1"), transform.position, transform.rotation);
         Reset();
-        Debug.Log("Ritual started");
+        GameObject Go = Instantiate(particleFX, this.transform.position, Quaternion.identity) as GameObject;
+        StartCoroutine(deleteFX(Go));
+
 
     }
 
@@ -35,7 +38,11 @@ public class Altar : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            sacrificedItems += HeldItems.heldSacrificialItems;
+            if (HeldItems.heldSacrificialItems >= 1)
+            {
+                LightIntensity.changeColour = true;
+                sacrificedItems += HeldItems.heldSacrificialItems;
+            }
             HeldItems.Reset();
 
             // Start the particle system and start the ritual
@@ -50,5 +57,12 @@ public class Altar : MonoBehaviour
     {
         sacrificedItems = 0;
         HeldItems.Reset();
+    }
+
+    public IEnumerator deleteFX(GameObject Go)
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(Go.gameObject);
+
     }
 }
