@@ -9,10 +9,11 @@ public class Altar : MonoBehaviour
     public GameObject particleFX;
     public GameObject particleBossFX;
     public GameObject boss;
-
+    private Vector3 startpos;
     // Use this for initialization
     void Start()
     {
+        startpos = this.transform.position;
         itemsNeeded = 5;
         sacrificedItems = 0;
         cc = GetComponent<CircleCollider2D>();
@@ -63,6 +64,7 @@ public class Altar : MonoBehaviour
     void SpawnBoss()
     {
         GameObject spawnFX = Instantiate(particleBossFX);
+        GameObject spawnBoss = Instantiate(boss, startpos, Quaternion.identity) as GameObject;
         StartCoroutine(waitToSpawnBoss());
     }
 
@@ -78,7 +80,7 @@ public class Altar : MonoBehaviour
 
     public IEnumerator waitToSpawnBoss()
     {
-        yield return new WaitForSeconds(1.5f);
-        GameObject spawnBoss = Instantiate(boss);
+        yield return new WaitForSeconds(3f);
+        
     }
 }
