@@ -15,8 +15,9 @@ public class EnemyController : MonoBehaviour {
 	protected float speed = 2;
 	protected float Cooldown;
 	protected int AttackSpeed = 1;
+	protected float spriteSize = 0.3f;
 	protected bool canAttack = true;
-	bool walking = false;
+	protected bool walking = false;
 	float seperation = 1f;
 
 	protected float xDifPlayer;
@@ -146,17 +147,17 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	protected void Animate () {
+	public virtual void Animate () {
 		Vector3 temp = this.transform.localScale;
 
 		if (walking) {
 			if (direction == 4) {
-				temp.x = 0.3f;
+				temp.x = spriteSize;
 				animation.SetBool ("isWalking", true);
 			} else if (direction == 3) {
 				animation.SetBool ("isWalking", true);
 			} else if (direction == 2) {
-				temp.x = -0.3f;
+				temp.x = -spriteSize;
 				animation.SetBool ("isWalking", true);
 			} else if (direction == 1) {
 				animation.SetBool ("isWalking", true);
