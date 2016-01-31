@@ -59,6 +59,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sacrificedItems: 0
   particleFX: {fileID: 171446, guid: c7370f16afa5dd24a9cd5c948aad137c, type: 2}
+  particleBossFX: {fileID: 0}
+  boss: {fileID: 157496, guid: a7f692245fa164001bae3c0ed477ffe3, type: 2}
 --- !u!198 &19853166
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1644,6 +1646,10 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 515545925
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 157496, guid: a7f692245fa164001bae3c0ed477ffe3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 114050}
