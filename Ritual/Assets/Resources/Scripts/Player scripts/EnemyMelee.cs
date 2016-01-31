@@ -6,7 +6,7 @@ public class EnemyMelee : EnemyController {
 	// Use this for initialization
 	public override void Start () {
 		base.Start ();
-		playerRange = 1;
+		playerAttackRange = 1;
 		attackRange = 1;
 	}
 	
