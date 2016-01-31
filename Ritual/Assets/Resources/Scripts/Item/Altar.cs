@@ -7,10 +7,13 @@ public class Altar : MonoBehaviour
     public int sacrificedItems;
     private CircleCollider2D cc;
     public GameObject particleFX;
-
+    public GameObject particleBossFX;
+    public GameObject boss;
+    private Vector3 startpos;
     // Use this for initialization
     void Start()
     {
+        startpos = this.transform.position;
         itemsNeeded = 5;
         sacrificedItems = 0;
         cc = GetComponent<CircleCollider2D>();
@@ -26,7 +29,6 @@ public class Altar : MonoBehaviour
     {
         // Start the ritual when 3 items are collected at the altar
         // level.SpawnEnemies = true;
-        // GameObject Boss = Instantiate (Resources.Load("Resources/Prefabs/Bosses/Boss#1"), transform.position, transform.rotation);
         Reset();
         GameObject Go = Instantiate(particleFX, this.transform.position, Quaternion.identity) as GameObject;
         StartCoroutine(deleteFX(Go));
@@ -59,10 +61,26 @@ public class Altar : MonoBehaviour
         HeldItems.Reset();
     }
 
+    void SpawnBoss()
+    {
+        GameObject spawnFX = Instantiate(particleBossFX);
+        GameObject spawnBoss = Instantiate(boss, startpos, Quaternion.identity) as GameObject;
+        StartCoroutine(waitToSpawnBoss());
+    }
+
     public IEnumerator deleteFX(GameObject Go)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         Destroy(Go.gameObject);
+        Destroy(GameObject.Find("Pentagram"));
+        Destroy(this.gameObject);
+        SpawnBoss();
 
+    }
+
+    public IEnumerator waitToSpawnBoss()
+    {
+        yield return new WaitForSeconds(3f);
+        
     }
 }

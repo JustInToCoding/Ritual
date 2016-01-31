@@ -23,19 +23,18 @@ public class GameController : MonoBehaviour {
 			amountOfLives = playerController.amountOfLives;
 		}
 
-		Camera cam = Camera.main;
-		float height =(2f * cam.orthographicSize)/2;
-		float width = (2f * cam.orthographicSize * cam.aspect)/2;
+        Camera cam = Camera.main;
+        float height = (2f * cam.orthographicSize) / 2;
+        float width = (2f * cam.orthographicSize * cam.aspect) / 2;
 
-		var spacing = 0f;
+		var spacing = 0.7f;
 		for(var i=0; i < amountOfLives; i++){
-			var live = Instantiate(LiveIndicatorPrefab, new Vector3(-width+spacing,height-0.5f,0), Quaternion.identity) as GameObject;
+			var live = Instantiate(LiveIndicatorPrefab, new Vector3(-width+spacing + cam.transform.position.x, height-0.5f + cam.transform.position.y, 0), Quaternion.identity) as GameObject;
 			live.transform.parent = Camera.main.transform;
 			live.GetComponent<SpriteRenderer>().sortingLayerName = "Default";
 			Lives.Add(live);
 			spacing += 0.7f;
 		}
-	
 	}
 		
 	//removes one live from ui
@@ -44,6 +43,7 @@ public class GameController : MonoBehaviour {
 		Lives.RemoveAt(Lives.Count-1);
 		Destroy(liveToLose);
 	}
+
 
 	//change the scene to gameover scene
 	public void GameOver(){

@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections;
 
+// Cartoon FX  - (c) 2013,2014 Jean Moreno
+
+// CFX Spawn System Editor interface
 
 [CustomEditor(typeof(CFX_SpawnSystem))]
 public class CFX_SpawnSystemEditor : Editor
@@ -24,10 +27,21 @@ public class CFX_SpawnSystemEditor : Editor
 				nb = 1;
 			(this.target as CFX_SpawnSystem).objectsToPreloadTimes[i] = nb;
 			
+			if(GUI.changed)
+			{
+				EditorUtility.SetDirty(target);
+			}
+			
 			if(GUILayout.Button("X", EditorStyles.miniButton, GUILayout.Width(24)))
 			{
+				Object preloadedObject = (this.target as CFX_SpawnSystem).objectsToPreload[i];
+				string objectName = (preloadedObject == null) ? "" : preloadedObject.name;
+				Undo.RegisterUndo(target, string.Format("Remove {0} from Spawn System", objectName));
+				
 				ArrayUtility.RemoveAt<GameObject>(ref (this.target as CFX_SpawnSystem).objectsToPreload, i);
 				ArrayUtility.RemoveAt<int>(ref (this.target as CFX_SpawnSystem).objectsToPreloadTimes, i);
+				
+				EditorUtility.SetDirty(target);
 			}
 			
 			GUILayout.EndHorizontal();
@@ -56,8 +70,12 @@ public class CFX_SpawnSystemEditor : Editor
 						
 						if(!already)
 						{
+							Undo.RegisterUndo(target, string.Format("Add {0} to Spawn System", o.name));
+							
 							ArrayUtility.Add<GameObject>(ref (this.target as CFX_SpawnSystem).objectsToPreload, (GameObject)o);
 							ArrayUtility.Add<int>(ref (this.target as CFX_SpawnSystem).objectsToPreloadTimes, 1);
+							
+							EditorUtility.SetDirty(target);
 						}
 					}
 				}
