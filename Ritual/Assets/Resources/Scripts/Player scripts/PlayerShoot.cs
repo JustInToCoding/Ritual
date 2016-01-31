@@ -3,7 +3,8 @@ using System.Collections;
 
 public class PlayerShoot : MonoBehaviour
 {
-
+    private AudioSource au_s;
+    public AudioClip playerHit, playerShoot;
     public Rigidbody2D BulletPrefab;
     //	public float BulletSpeed;
     public float AttackSpeed;
@@ -14,6 +15,7 @@ public class PlayerShoot : MonoBehaviour
 
     void Start()
     {
+        au_s = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -68,6 +70,7 @@ public class PlayerShoot : MonoBehaviour
         Vector3 bulletStartLocation = transform.position;
         bulletStartLocation.y += 0.2f;
         //		bulletStartLocation.x += 0.2f;
+        au_s.PlayOneShot(playerShoot, 0.3f);
         Rigidbody2D bPrefab = Instantiate(BulletPrefab, bulletStartLocation, Quaternion.identity) as Rigidbody2D;
 
 
