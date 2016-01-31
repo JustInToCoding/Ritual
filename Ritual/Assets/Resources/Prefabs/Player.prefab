@@ -74,7 +74,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 5025446, guid: 099a827541b9a43ca96de19ce003d366, type: 2}
-  BulletSpeed: 100
   AttackSpeed: 0.2
 --- !u!114 &11477226
 MonoBehaviour:
@@ -89,7 +88,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: 0
   maxSpeed: 2
-  amountOfLives: 3
+  amountOfLives: 6
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -103,7 +102,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: amountOfLives
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
