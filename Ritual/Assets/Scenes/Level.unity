@@ -2306,6 +2306,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.64}
+--- !u!1 &111721548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 111721549}
+  m_Layer: 0
+  m_Name: Spawnpoint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &111721549
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 111721548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.09, y: 0.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1749844053}
+  m_RootOrder: 3
 --- !u!1001 &114181734
 Prefab:
   m_ObjectHideFlags: 0
@@ -7735,6 +7762,7 @@ Transform:
   - {fileID: 1799805865}
   - {fileID: 469850529}
   - {fileID: 2061446735}
+  - {fileID: 1099801136}
   m_Father: {fileID: 0}
   m_RootOrder: 18
 --- !u!1 &303927030
@@ -10607,6 +10635,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.92}
+--- !u!1 &384137873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 384137874}
+  m_Layer: 0
+  m_Name: Spawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &384137874
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384137873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.79, y: -5.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 589262679}
+  m_RootOrder: 1
 --- !u!1 &384457552
 GameObject:
   m_ObjectHideFlags: 0
@@ -10753,6 +10808,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.92}
+--- !u!1 &389297232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 389297233}
+  m_Layer: 0
+  m_Name: Spawnpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389297233
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 389297232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.55, y: 2.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 589262679}
+  m_RootOrder: 0
 --- !u!1 &395591449
 GameObject:
   m_ObjectHideFlags: 0
@@ -11265,6 +11347,33 @@ BoxCollider2D:
   m_Offset: {x: 0.0000038146973, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.6399999, y: 0.6399999}
+--- !u!1 &415297633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 415297634}
+  m_Layer: 0
+  m_Name: Spawnpoint1Graveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415297634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415297633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7, y: -2.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1099801136}
+  m_RootOrder: 0
 --- !u!1 &416420191
 GameObject:
   m_ObjectHideFlags: 0
@@ -12185,6 +12294,7 @@ Transform:
   - {fileID: 1199161546}
   - {fileID: 2008428447}
   - {fileID: 1605169646}
+  - {fileID: 589262679}
   m_Father: {fileID: 0}
   m_RootOrder: 22
 --- !u!1 &463096931
@@ -14654,6 +14764,33 @@ BoxCollider2D:
   m_Offset: {x: -0.00000071525574, y: 0.0000009536743}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.92}
+--- !u!1 &536399235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 536399236}
+  m_Layer: 0
+  m_Name: Spawnpoint4Graveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536399236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536399235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.25, y: 4.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1099801136}
+  m_RootOrder: 3
 --- !u!1001 &536783936
 Prefab:
   m_ObjectHideFlags: 0
@@ -15606,6 +15743,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 263
+--- !u!1 &562271848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 562271849}
+  m_Layer: 0
+  m_Name: Spawnpoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562271849
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562271848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.81, y: 1.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1749844053}
+  m_RootOrder: 2
 --- !u!4 &563206801 stripped
 Transform:
   m_PrefabParentObject: {fileID: 455144, guid: c817c8b0eb6dc4b01b32eb0059a1e851, type: 2}
@@ -16354,6 +16518,57 @@ BoxCollider2D:
   m_Offset: {x: 0.0000017285347, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.92}
+--- !u!1 &589262678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 589262679}
+  - 114: {fileID: 589262680}
+  m_Layer: 0
+  m_Name: EnemyMangerMaze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &589262679
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589262678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.84, y: 3.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 389297233}
+  - {fileID: 384137874}
+  m_Father: {fileID: 459802274}
+  m_RootOrder: 44
+--- !u!114 &589262680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589262678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3a097c89c74b47b401e2fc66667fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+  - {fileID: 147854, guid: c9c1f2142ca17f64abd3ddf8be6298e4, type: 2}
+  spawnTime: 3
+  spawnPoints:
+  - {fileID: 389297233}
+  - {fileID: 384137874}
+  maxAliveEnemies: 2
+  maxSpawnedEnemies: 6
+  spawnWithinRange: 5
 --- !u!1 &589510626
 GameObject:
   m_ObjectHideFlags: 0
@@ -17013,7 +17228,7 @@ Transform:
   - {fileID: 303927032}
   - {fileID: 1894012172}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
 --- !u!1 &608799506
 GameObject:
   m_ObjectHideFlags: 0
@@ -18286,6 +18501,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.92}
+--- !u!1 &650042218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 650042219}
+  m_Layer: 0
+  m_Name: Spawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650042219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650042218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.96, y: 4.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1421799745}
+  m_RootOrder: 1
 --- !u!1 &651030311
 GameObject:
   m_ObjectHideFlags: 0
@@ -20244,6 +20486,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16f9759db25d44bc58acd879db77f4ec, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &725943212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 725943213}
+  m_Layer: 0
+  m_Name: Spawnpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &725943213
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725943212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.84, y: -5.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1749844053}
+  m_RootOrder: 0
 --- !u!1 &726081723
 GameObject:
   m_ObjectHideFlags: 0
@@ -20323,6 +20592,7 @@ Transform:
   - {fileID: 973709139}
   - {fileID: 1636815053}
   - {fileID: 895914712}
+  - {fileID: 1421799745}
   m_Father: {fileID: 0}
   m_RootOrder: 21
 --- !u!1 &728693269
@@ -30564,6 +30834,63 @@ BoxCollider2D:
   m_Offset: {x: -0.0000019073486, y: 0.0000009536743}
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
+--- !u!1 &1099801135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1099801136}
+  - 114: {fileID: 1099801137}
+  m_Layer: 0
+  m_Name: EnemyManagerGraveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099801136
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099801135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4232979, y: -6.458723, z: -4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 415297634}
+  - {fileID: 1860176665}
+  - {fileID: 1623120471}
+  - {fileID: 536399236}
+  - {fileID: 1720846470}
+  m_Father: {fileID: 302344998}
+  m_RootOrder: 44
+--- !u!114 &1099801137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099801135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3a097c89c74b47b401e2fc66667fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+  - {fileID: 147854, guid: c9c1f2142ca17f64abd3ddf8be6298e4, type: 2}
+  spawnTime: 2
+  spawnPoints:
+  - {fileID: 415297634}
+  - {fileID: 1860176665}
+  - {fileID: 1623120471}
+  - {fileID: 536399236}
+  - {fileID: 1720846470}
+  maxAliveEnemies: 5
+  maxSpawnedEnemies: 10
+  spawnWithinRange: 10
 --- !u!1 &1100921108
 GameObject:
   m_ObjectHideFlags: 0
@@ -36461,6 +36788,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 939365780d5784f31a0665b3ced4b103, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1306317089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1306317090}
+  m_Layer: 0
+  m_Name: Spawnpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306317090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1306317089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.88, y: -0.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1942984091}
+  m_RootOrder: 0
 --- !u!1 &1307324196
 GameObject:
   m_ObjectHideFlags: 0
@@ -36761,6 +37115,7 @@ Transform:
   - {fileID: 1786516026}
   - {fileID: 1948185135}
   - {fileID: 1315418829}
+  - {fileID: 1942984091}
   m_Father: {fileID: 0}
   m_RootOrder: 19
 --- !u!1001 &1316473713
@@ -39565,6 +39920,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 237
+--- !u!1 &1421799744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1421799745}
+  - 114: {fileID: 1421799746}
+  m_Layer: 0
+  m_Name: EnemyManagerTR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421799745
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421799744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.56, y: 17.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1542365672}
+  - {fileID: 650042219}
+  m_Father: {fileID: 726081724}
+  m_RootOrder: 54
+--- !u!114 &1421799746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421799744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3a097c89c74b47b401e2fc66667fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+  - {fileID: 147854, guid: c9c1f2142ca17f64abd3ddf8be6298e4, type: 2}
+  spawnTime: 3
+  spawnPoints:
+  - {fileID: 1542365672}
+  - {fileID: 650042219}
+  maxAliveEnemies: 2
+  maxSpawnedEnemies: 8
+  spawnWithinRange: 6
 --- !u!1 &1422740797
 GameObject:
   m_ObjectHideFlags: 0
@@ -40408,6 +40814,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.64}
+--- !u!1 &1452392491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1452392492}
+  m_Layer: 0
+  m_Name: Spawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452392492
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1452392491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.81, y: -5.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1749844053}
+  m_RootOrder: 1
 --- !u!1 &1454116054
 GameObject:
   m_ObjectHideFlags: 0
@@ -41945,7 +42378,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444094, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
@@ -42957,6 +43390,33 @@ BoxCollider2D:
 Transform:
   m_PrefabParentObject: {fileID: 455898, guid: a6858a72c67f942ac880a805639080d7, type: 2}
   m_PrefabInternal: {fileID: 1692600912}
+--- !u!1 &1542365671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1542365672}
+  m_Layer: 0
+  m_Name: Spawnpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542365672
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542365671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.68, y: -3.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1421799745}
+  m_RootOrder: 0
 --- !u!1001 &1545345306
 Prefab:
   m_ObjectHideFlags: 0
@@ -44406,6 +44866,33 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &1623120470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1623120471}
+  m_Layer: 0
+  m_Name: Spawnpoint3Graveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1623120471
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1623120470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.81, y: 4.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1099801136}
+  m_RootOrder: 2
 --- !u!4 &1623947377 stripped
 Transform:
   m_PrefabParentObject: {fileID: 455898, guid: a6858a72c67f942ac880a805639080d7, type: 2}
@@ -47392,6 +47879,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.64}
+--- !u!1 &1720846469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1720846470}
+  m_Layer: 0
+  m_Name: Spawnpoint5Graveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1720846470
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1720846469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -5.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1099801136}
+  m_RootOrder: 4
 --- !u!1 &1723996769
 GameObject:
   m_ObjectHideFlags: 0
@@ -48186,6 +48700,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 13
+--- !u!1 &1749844052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1749844053}
+  - 114: {fileID: 1749844054}
+  m_Layer: 0
+  m_Name: EnemyManagerTrapRoom1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1749844053
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749844052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 725943213}
+  - {fileID: 1452392492}
+  - {fileID: 562271849}
+  - {fileID: 111721549}
+  m_Father: {fileID: 1756429424}
+  m_RootOrder: 20
+--- !u!114 &1749844054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749844052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3a097c89c74b47b401e2fc66667fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+  - {fileID: 147854, guid: c9c1f2142ca17f64abd3ddf8be6298e4, type: 2}
+  spawnTime: 3
+  spawnPoints:
+  - {fileID: 725943213}
+  - {fileID: 1452392492}
+  - {fileID: 562271849}
+  - {fileID: 111721549}
+  maxAliveEnemies: 5
+  maxSpawnedEnemies: 10
+  spawnWithinRange: 10
 --- !u!1 &1750397476
 GameObject:
   m_ObjectHideFlags: 0
@@ -48412,6 +48981,7 @@ Transform:
   - {fileID: 1479885482}
   - {fileID: 908286257}
   - {fileID: 1855497465}
+  - {fileID: 1749844053}
   m_Father: {fileID: 0}
   m_RootOrder: 20
 --- !u!1001 &1758786580
@@ -49117,6 +49687,33 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.64}
+--- !u!1 &1786387178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1786387179}
+  m_Layer: 0
+  m_Name: Spawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786387179
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786387178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.37, y: 4.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1942984091}
+  m_RootOrder: 1
 --- !u!4 &1786516026 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489902, guid: 58aeb05b7d2c142fa9a80a1e31992257, type: 2}
@@ -51060,6 +51657,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 99
+--- !u!1 &1860176664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1860176665}
+  m_Layer: 0
+  m_Name: Spawnpoint2Graveyard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1860176665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860176664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.94, y: -3.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1099801136}
+  m_RootOrder: 1
 --- !u!1 &1861425849
 GameObject:
   m_ObjectHideFlags: 0
@@ -51727,6 +52351,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408785880}
   m_RootOrder: 239
+--- !u!1 &1884814373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1884814374}
+  m_Layer: 0
+  m_Name: Spawnpoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1884814374
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884814373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.94, y: -3.34, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1942984091}
+  m_RootOrder: 2
 --- !u!1 &1885322993
 GameObject:
   m_ObjectHideFlags: 0
@@ -53569,6 +54220,59 @@ BoxCollider2D:
 Transform:
   m_PrefabParentObject: {fileID: 441576, guid: 0f0bf6903285946058fbd7b2293482d5, type: 2}
   m_PrefabInternal: {fileID: 1363027885}
+--- !u!1 &1942984090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1942984091}
+  - 114: {fileID: 1942984092}
+  m_Layer: 0
+  m_Name: EnemyManageLR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1942984091
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942984090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1306317090}
+  - {fileID: 1786387179}
+  - {fileID: 1884814374}
+  m_Father: {fileID: 1316141034}
+  m_RootOrder: 32
+--- !u!114 &1942984092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942984090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3a097c89c74b47b401e2fc66667fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+  - {fileID: 147854, guid: c9c1f2142ca17f64abd3ddf8be6298e4, type: 2}
+  spawnTime: 2
+  spawnPoints:
+  - {fileID: 1306317090}
+  - {fileID: 1786387179}
+  - {fileID: 1884814374}
+  maxAliveEnemies: 3
+  maxSpawnedEnemies: 9
+  spawnWithinRange: 10
 --- !u!1 &1943770102
 GameObject:
   m_ObjectHideFlags: 0
@@ -55540,9 +56244,9 @@ GameObject:
   - 4: {fileID: 2028648315}
   - 212: {fileID: 2028648314}
   - 61: {fileID: 2028648316}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Floor Total_0
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56101,7 +56805,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
 --- !u!4 &2052773413 stripped
 Transform:
   m_PrefabParentObject: {fileID: 495592, guid: 322b8c5bf15ed4ad59acd388ef3d92c3, type: 2}
