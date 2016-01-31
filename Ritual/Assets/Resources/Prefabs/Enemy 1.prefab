@@ -283,6 +283,7 @@ GameObject:
   - 61: {fileID: 6149220}
   - 114: {fileID: 11418342}
   - 114: {fileID: 11425400}
+  - 82: {fileID: 8232922}
   m_Layer: 10
   m_Name: Enemy 1
   m_TagString: Enemy
@@ -960,6 +961,80 @@ BoxCollider2D:
   m_Offset: {x: 0.044581093, y: 1.3820208}
   serializedVersion: 2
   m_Size: {x: 1.4458147, y: 3.1220725}
+--- !u!82 &8232922
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147854}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &9533174
 Animator:
   serializedVersion: 3
@@ -987,7 +1062,7 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 0.95
   m_Range: 4
   m_SpotAngle: 45
   m_CookieSize: 10
@@ -1026,7 +1101,11 @@ MonoBehaviour:
   playerSearchRange: 3000
   attackRange: 3
   direction: 0
+  Death: {fileID: 181702, guid: 68b6dbf16e8e44c4bb7d433ad04b73d8, type: 2}
   animation: {fileID: 0}
+  enemyHit: {fileID: 8300000, guid: f331a57794b524d4d833127f8b162cad, type: 3}
+  enemyDeath: {fileID: 0}
+  enemyShoot: {fileID: 8300000, guid: 2649f4174e7dc1744933741436acf0f6, type: 3}
   nextWaypointDistance: 0.02
 --- !u!114 &11421036
 MonoBehaviour:
@@ -1728,6 +1807,30 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Intensity
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Death
+      value: 
+      objectReference: {fileID: 181702, guid: 68b6dbf16e8e44c4bb7d433ad04b73d8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyHit
+      value: 
+      objectReference: {fileID: 8300000, guid: f331a57794b524d4d833127f8b162cad, type: 3}
+    - target: {fileID: 0}
+      propertyPath: enemyShoot
+      value: 
+      objectReference: {fileID: 8300000, guid: 2649f4174e7dc1744933741436acf0f6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

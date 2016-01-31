@@ -265,7 +265,6 @@ GameObject:
   - 114: {fileID: 11428280}
   - 50: {fileID: 5087324}
   - 61: {fileID: 6188060}
-  - 114: {fileID: 11446240}
   - 114: {fileID: 11487626}
   - 114: {fileID: 11423770}
   m_Layer: 0
@@ -1084,10 +1083,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 116106, guid: 4603d91f1ea9fc545939f1a7b234182e, type: 2}
-  playerRange: 2
+  playerAttackRange: 0
+  playerSearchRange: 3000
   attackRange: 2
   direction: 0
+  Death: {fileID: 181702, guid: 68b6dbf16e8e44c4bb7d433ad04b73d8, type: 2}
   animation: {fileID: 0}
+  au_s: {fileID: 0}
+  enemyHit: {fileID: 0}
+  enemyDeath: {fileID: 0}
+  enemyShoot: {fileID: 0}
   nextWaypointDistance: 0.02
   spawnableEnemy: {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
 --- !u!114 &11428280
@@ -1136,23 +1141,6 @@ MonoBehaviour:
   Sprites:
   - {fileID: 21300000, guid: 4cf2ed6c2705348fc97b9bd101368e91, type: 3}
   - {fileID: 21300000, guid: 42cf9a57651b644b782160013da59aac, type: 3}
---- !u!114 &11446240
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157496}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f9da75301a6b4e80a4d7a577536f1da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 173846, guid: 87c531c4abf414c07a9a76a4e71373c7, type: 2}
-  playerRange: 2
-  attackRange: 3
-  direction: 0
-  animation: {fileID: 0}
-  nextWaypointDistance: 0.02
 --- !u!114 &11459062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1752,6 +1740,10 @@ Prefab:
       propertyPath: spawnableEnemy
       value: 
       objectReference: {fileID: 147854, guid: 65408f843ed1c4aa09c118429a0dc93d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Death
+      value: 
+      objectReference: {fileID: 181702, guid: 68b6dbf16e8e44c4bb7d433ad04b73d8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 157496}

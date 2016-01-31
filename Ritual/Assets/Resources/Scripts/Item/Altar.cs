@@ -10,9 +10,12 @@ public class Altar : MonoBehaviour
     public GameObject particleBossFX;
     public GameObject boss;
     private Vector3 startpos;
+    private AudioSource au_s;
+    public AudioClip bossSpawn, particleSpawn;
     // Use this for initialization
     void Start()
     {
+        au_s = GetComponent<AudioSource>();
         startpos = this.transform.position;
         itemsNeeded = 5;
         sacrificedItems = 0;
@@ -32,8 +35,10 @@ public class Altar : MonoBehaviour
 
 		//Reset enabled for gamecontroller interface statusItems picked
 //        Reset();
+        au_s.PlayOneShot(bossSpawn, 1.5f);
         GameObject Go = Instantiate(particleFX, this.transform.position, Quaternion.identity) as GameObject;
         StartCoroutine(deleteFX(Go));
+
 
 
     }
