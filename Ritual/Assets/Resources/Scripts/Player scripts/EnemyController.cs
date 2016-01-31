@@ -4,7 +4,8 @@ using Pathfinding;
 
 public class EnemyController : MonoBehaviour {
 	public GameObject projectile;
-	public float playerRange;
+	public float playerAttackRange;
+	public float playerSearchRange = 3000f;
 	public float attackRange;
 	public float direction;
 	public Animator animation;
@@ -34,16 +35,19 @@ public class EnemyController : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
 		animation = GetComponent<Animator> ();
 		seeker = GetComponent<Seeker> ();
-		seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 	}
 
 	public void FixedUpdate () {
-		bool playerInRange = (xDifPlayer > -playerRange && xDifPlayer < playerRange) && (yDifPlayer > -playerRange && yDifPlayer < playerRange);
+		bool playerInRange = (xDifPlayer > - playerAttackRange && xDifPlayer < playerAttackRange) && (yDifPlayer > -playerAttackRange && yDifPlayer < playerAttackRange);
 		xDifPlayer = player.transform.position.x - transform.position.x;
 		yDifPlayer = player.transform.position.y - transform.position.y;
 		walking = false;
 		calculateDirection ();
 		Animate ();
+		bool playerFound = Vector3.Distance (transform.position, player.transform.position) < playerSearchRange;
+		if (playerFound && path == null) {
+			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+		}
 		if (path == null)
 		{
 			//We have no path to move after yet
