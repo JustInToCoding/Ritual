@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
 	public int amountOfLives;
 
-    void Start()
+	void Start()
     {
 		animator = GetComponent<Animator> ();
 		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
@@ -91,15 +91,17 @@ public class PlayerController : MonoBehaviour
 
 	//when collider hits player check who is colliding and react
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Enemy"){
-			removeLive ();
-		}
+		//if (coll.gameObject.tag == "Enemy"){
+		//	removeLive ();
+		//}
 	}
 
 	public void hit (GameObject col) {
 		if (col.tag == "EnemyBullet") {
 			removeLive ();
 			Destroy (col);
+		}else if (col.GetComponent<EnemyMelee>()) {
+			removeLive ();
 		}
 	}
 

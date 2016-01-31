@@ -8,33 +8,30 @@ public class EnemyController : MonoBehaviour {
 	public float attackRange;
 	public float direction;
 	public Animator animation;
-	private GameObject player;
-	private Rigidbody2D rb;
+	protected GameObject player;
 
-	private float health = 40;
-	private float speed = 2;
-	private float Cooldown;
-	private int projectileSpeed = 4;
-	private int AttackSpeed = 1;
-	private bool canAttack = true;
-	private bool walking = false;
+	float health = 40;
+	protected float speed = 2;
+	protected float Cooldown;
+	protected int AttackSpeed = 1;
+	protected bool canAttack = true;
+	bool walking = false;
 
-	private float xDifPlayer;
-	private float yDifPlayer;
-	private Vector2 target;
+	protected float xDifPlayer;
+	protected float yDifPlayer;
+	Vector2 target;
 
-	private Seeker seeker;
+	Seeker seeker;
 	public Path path;
 	public float nextWaypointDistance = 0.02f;
-	private int currentWaypoint = 0;
+	int currentWaypoint = 0;
 
 
 	// Use this for initialization
-	void Start () {
+	public virtual void Start () {
 		direction = 1;
 		player = GameObject.FindGameObjectWithTag("Player");
 		animation = GetComponent<Animator> ();
-		rb = GetComponent<Rigidbody2D> ();
 		seeker = GetComponent<Seeker> ();
 		seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 	}
@@ -58,6 +55,8 @@ public class EnemyController : MonoBehaviour {
 				Attack ();
 			}
 			return;
+		}else{
+			animation.SetBool ("isShooting", false);
 		}
 
 		if (currentWaypoint >= path.vectorPath.Count)
@@ -85,10 +84,11 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void Attack() {
+	public virtual void Attack() {
 		bool playerInRange = (xDifPlayer > -attackRange && xDifPlayer < attackRange) && (yDifPlayer > -attackRange && yDifPlayer < attackRange);
 		calculateDirection ();
 		if (playerInRange && canAttack) {
+			animation.SetBool ("isShooting", true);
 			Vector3 bulletStartLocation = transform.position;
 			bulletStartLocation.y += 0.32f;
 			GameObject attack = Instantiate (projectile, bulletStartLocation, Quaternion.identity) as GameObject;
@@ -116,7 +116,7 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void calculateDirection() {
+	protected void calculateDirection() {
 		float angle  = (Mathf.Atan2((transform.position.x - player.transform.position.x), (transform.position.y - player.transform.position.y)) * 180 / Mathf.PI) + 180;
 
 		if (angle > 45 && angle < 135) {
@@ -151,8 +151,7 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	public void OnPathComplete ( Path p )
-	{
+	public void OnPathComplete ( Path p ) {
 		if (!p.error) {
 			path = p;
 			//Reset the waypoint counter
