@@ -9,8 +9,9 @@ public class EnemyManager : MonoBehaviour
     private int spawnedEnemies = 0;
     private List<GameObject> aliveEnemies;
     private int aliveEnemiesTotal = 0;
-    public int maxAliveEnemies;
-    public int maxSpawnedEnemies;
+    public int maxAliveEnemies = 5;
+    public int maxSpawnedEnemies = 5;
+    public int spawnWithinRange = 10;
 
 
     void Start()
@@ -38,20 +39,26 @@ public class EnemyManager : MonoBehaviour
 
     void Spawn()
     {
-        if(aliveEnemies.Count < maxAliveEnemies && spawnedEnemies < maxSpawnedEnemies)
+        GameObject player = GameObject.Find("Player");
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        Debug.Log("Distance: " + distance);
+        if ( distance < spawnWithinRange)
         {
-            // Find a random index between zero and one less than the number of spawn points.
-            int spawnPointIndex = Random.Range(0, spawnPoints.Length);
+            if (aliveEnemies.Count < maxAliveEnemies && spawnedEnemies < maxSpawnedEnemies)
+            {
+                // Find a random index between zero and one less than the number of spawn points.
+                int spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
-            // Find a random index between zero and one less than the number of enemy prefabs.
-            int enemyIndex = Random.Range(0, enemies.Length);
+                // Find a random index between zero and one less than the number of enemy prefabs.
+                int enemyIndex = Random.Range(0, enemies.Length);
 
-            // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
-            aliveEnemies.Add( Instantiate(enemies[enemyIndex], 
-                new Vector2(spawnPoints[spawnPointIndex].position.x, spawnPoints[spawnPointIndex].position.y), 
-                spawnPoints[spawnPointIndex].rotation) as GameObject);
-            spawnedEnemies++;
-            Debug.Log(spawnedEnemies);
+                // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
+                aliveEnemies.Add(Instantiate(enemies[enemyIndex],
+                    new Vector2(spawnPoints[spawnPointIndex].position.x, spawnPoints[spawnPointIndex].position.y),
+                    spawnPoints[spawnPointIndex].rotation) as GameObject);
+                spawnedEnemies++;
+                Debug.Log(spawnedEnemies);
+            }
         }
     }
 }
