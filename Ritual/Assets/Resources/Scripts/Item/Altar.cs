@@ -4,7 +4,7 @@ using System.Collections;
 public class Altar : MonoBehaviour
 {
     private int itemsNeeded;
-    public int sacrificedItems;
+    public static int sacrificedItems;
     private CircleCollider2D cc;
     public GameObject particleFX;
     public GameObject particleBossFX;
