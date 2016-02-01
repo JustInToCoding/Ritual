@@ -1097,12 +1097,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 113614, guid: 103c2dd6f1c0ef24997ac7e8f85d2cf9, type: 2}
-  playerAttackRange: 2
-  playerSearchRange: 3000
+  playerAttackRange: 4
+  playerSearchRange: 10
   attackRange: 3
   direction: 0
   Death: {fileID: 181702, guid: 68b6dbf16e8e44c4bb7d433ad04b73d8, type: 2}
   animation: {fileID: 0}
+  au_s: {fileID: 0}
   enemyHit: {fileID: 8300000, guid: f331a57794b524d4d833127f8b162cad, type: 3}
   enemyDeath: {fileID: 0}
   enemyShoot: {fileID: 8300000, guid: 2649f4174e7dc1744933741436acf0f6, type: 3}
@@ -1803,7 +1804,7 @@ Prefab:
       objectReference: {fileID: 113614, guid: 103c2dd6f1c0ef24997ac7e8f85d2cf9, type: 2}
     - target: {fileID: 0}
       propertyPath: playerAttackRange
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Intensity
@@ -1832,6 +1833,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerSearchRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour {
     public AudioSource au_s;
     public AudioClip enemyHit, enemyDeath, enemyShoot;
 
-	float health = 40;
+	protected float health = 40;
 	protected float speed = 2;
 	protected float Cooldown;
 	protected int AttackSpeed = 1;
