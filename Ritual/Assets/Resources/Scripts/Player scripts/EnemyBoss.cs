@@ -21,6 +21,7 @@ public class EnemyBoss : EnemyController {
 		animation = GetComponent<Animator> ();
 		direction = 1;
 		speed = 1;
+		health = 100;
 		spriteSize = 0.5f;
 		player = GameObject.FindGameObjectWithTag("Player");
 		canAttack = false;
