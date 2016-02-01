@@ -3,10 +3,7 @@ using System.Collections;
 using Pathfinding;
 
 public class EnemyController : MonoBehaviour {
-	public GameObject projectile;
-	public float playerAttackRange;
-	public float playerSearchRange = 3000f;
-	public float attackRange;
+	public float playerSearchRange = 10f;
 	public float direction;
     public GameObject Death;
 	public Animator animation;
@@ -14,23 +11,19 @@ public class EnemyController : MonoBehaviour {
     public AudioSource au_s;
     public AudioClip enemyHit, enemyDeath, enemyShoot;
 
-	protected float health = 40;
+	protected float health = 20;
 	protected float speed = 2;
-	protected float Cooldown;
-	protected int AttackSpeed = 1;
 	protected float spriteSize = 0.3f;
-	protected bool canAttack = true;
 	protected bool walking = false;
 	float seperation = 1f;
 
 	protected float xDifPlayer;
 	protected float yDifPlayer;
-	Vector2 target;
 
-	Seeker seeker;
+	protected Seeker seeker;
 	public Path path;
 	public float nextWaypointDistance = 0.02f;
-	int currentWaypoint = 0;
+	protected int currentWaypoint = 0;
 
 
 	// Use this for initialization
@@ -42,43 +35,27 @@ public class EnemyController : MonoBehaviour {
 		seeker = GetComponent<Seeker> ();
 	}
 
-	public void FixedUpdate () {
-		bool playerInRange = (xDifPlayer > - playerAttackRange && xDifPlayer < playerAttackRange) && (yDifPlayer > -playerAttackRange && yDifPlayer < playerAttackRange);
-		xDifPlayer = player.transform.position.x - transform.position.x;
-		yDifPlayer = player.transform.position.y - transform.position.y;
+	public virtual void FixedUpdate () {
+		bool playerFound = Vector3.Distance (transform.position, player.transform.position) < playerSearchRange;
 		walking = false;
 		calculateDirection ();
 		Animate ();
-		bool playerFound = Vector3.Distance (transform.position, player.transform.position) < playerSearchRange;
 		if (playerFound && path == null) {
 			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 		}
+
 		if (path == null)
 		{
 			//We have no path to move after yet
 			return;
 		}
 
-		if (path.vectorPath.Count - currentWaypoint < 3 && playerInRange) {
-			
-			if (Time.time >= Cooldown) {
-				Attack ();
-			}
-			return;
-		}else{
-			animation.SetBool ("isShooting", false);
-		}
+		createNewPath ();
 
-		if (currentWaypoint >= path.vectorPath.Count)
-		{
-			if (!playerInRange) {
-				seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
-			}
-			//Debug.Log( "End Of Path Reached" );
+		if (currentWaypoint > path.vectorPath.Count) {
+			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
 			return;
 		}
-			
-
 		//Direction to the next waypoint
 		Vector3 dir = ( path.vectorPath[ currentWaypoint ] - transform.position).normalized;
 		dir = addSeperation (dir);
@@ -105,25 +82,18 @@ public class EnemyController : MonoBehaviour {
 		return dir;
 	}
 
-	public virtual void Attack() {
-		bool playerInRange = (xDifPlayer > -attackRange && xDifPlayer < attackRange) && (yDifPlayer > -attackRange && yDifPlayer < attackRange);
-		calculateDirection ();
-		if (playerInRange && canAttack) {
-            au_s.PlayOneShot(enemyShoot, 0.5f);
-			animation.SetBool ("isShooting", true);
-			Vector3 bulletStartLocation = transform.position;
-			bulletStartLocation.y += 0.32f;
-			GameObject attack = Instantiate (projectile, bulletStartLocation, Quaternion.identity) as GameObject;
-			BulletController attackController = attack.GetComponent<BulletController> ();
-			attackController.direction = direction;
-			Cooldown = Time.time + AttackSpeed;
+	public virtual void createNewPath () {
+		if (currentWaypoint >= path.vectorPath.Count) {
+			seeker.StartPath (transform.position, player.transform.position, OnPathComplete);
+			//Debug.Log( "End Of Path Reached" );
+			return;
 		}
 	}
 
 	void Hit(float damage) {
 		health -= damage;
 		if (health <= 0) {
-            GameObject Go = Instantiate(Death);
+            Instantiate(Death);
 			Destroy (gameObject);
 		}
 	}

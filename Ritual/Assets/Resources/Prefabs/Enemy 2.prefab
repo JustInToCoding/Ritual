@@ -281,8 +281,8 @@ GameObject:
   - 114: {fileID: 11488898}
   - 50: {fileID: 5046652}
   - 61: {fileID: 6149220}
-  - 114: {fileID: 11425400}
   - 114: {fileID: 11467962}
+  - 114: {fileID: 11425400}
   m_Layer: 10
   m_Name: Enemy 2
   m_TagString: Enemy
@@ -1141,10 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614f7dfbe6a054fb68a61983e8c00ae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
-  playerAttackRange: 0
   playerSearchRange: 10
-  attackRange: 0
   direction: 0
   Death: {fileID: 0}
   animation: {fileID: 0}
@@ -1153,6 +1150,7 @@ MonoBehaviour:
   enemyDeath: {fileID: 0}
   enemyShoot: {fileID: 0}
   nextWaypointDistance: 0.02
+  AttackSpeed: 1
 --- !u!114 &11474372
 MonoBehaviour:
   m_ObjectHideFlags: 1

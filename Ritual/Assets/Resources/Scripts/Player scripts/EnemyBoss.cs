@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnemyBoss : EnemyController {
 	public GameObject spawnableEnemy;
+	public GameObject projectile;
 	private float spawnDistance = 2;
 	private bool canFire = false;
 	private bool canNormalAttack = true;
@@ -14,6 +15,7 @@ public class EnemyBoss : EnemyController {
 	private Vector2 startLocation;
 	private float destinationX;
 	private float destinationY;
+	private bool canAttack;
 
 	// Use this for initialization
 	public override void Start () {
@@ -54,7 +56,7 @@ public class EnemyBoss : EnemyController {
 		//todo: normal movement..
 	}
 
-	public override void Attack() {
+	public void Attack() {
 		canMove = false;
 		stopWalking ();
 		if (canNormalAttack) {
